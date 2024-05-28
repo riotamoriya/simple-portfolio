@@ -1,2 +1,34 @@
-# simple-portfolio
-A basic portfolio page created as a starting point for a more comprehensive portfolio website. Built with HTML and CSS, this simple page serves as a foundation for future development using frameworks like React and Gatsby. The content will be expanded and refined over time.
+# プロジェクト名
+
+## 概要
+このプロジェクトは、フリーランスエンジニアとしてのポートフォリオサイトを構築し、技術力をアピールするためのものです。主要な機能として、プロジェクト一覧、プロジェクト詳細、ブログ、自己紹介、コンタクトフォームを提供します。
+
+## セットアップ手順
+1. リポジトリをクローン
+   ```
+   git clone https://github.com/your-username/portfolio-site.git
+   cd portfolio-site
+   ```
+2. 依存関係をインストール
+   ```
+   npm install
+   ```
+3. 環境変数を設定
+   ```
+   .env.development
+   .env.production
+   ```
+4. 開発サーバーを起動
+   ```
+   gatsby develop
+   ```
+
+## 主要機能
+- プロジェクト一覧ページ
+- プロジェクト詳細ページ
+- ブログページ
+- 自己紹介ページ
+- コンタクトページ
+
+## ドキュメント
+詳細なドキュメントは[docs](./docs)フォルダを参照してください。
