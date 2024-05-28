@@ -8,6 +8,7 @@ module.exports = {
     description: "Official Contentful Gatsby Starter",
   },
   plugins: [
+    `gatsby-plugin-netlify `,
     "gatsby-transformer-sharp",
     "gatsby-plugin-react-helmet",
     "gatsby-plugin-sharp",
