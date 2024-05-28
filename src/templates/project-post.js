@@ -61,7 +61,7 @@ class ProjectPostTemplate extends React.Component {
             <div className={styles.body}>
               {post.body?.raw && renderRichText(post.body, options)}
             </div>
-            <Tags tags={post.tags} />
+            <Tags tags={post.techTags} />
             {(previous || next) && (
               <nav>
                 <ul className={styles.articleNavigation}>
@@ -115,7 +115,7 @@ export const pageQuery = graphql`
         raw
         
       }
-      tags
+      techTags
       description {
         raw
       }

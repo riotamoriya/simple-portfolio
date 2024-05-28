@@ -30,7 +30,7 @@ export const pageQuery = graphql`
         title
         slug
         publishDate(formatString: "MMMM Do, YYYY")
-        tags
+        techTags
         heroImage {
           gatsbyImage(
             layout: FULL_WIDTH
