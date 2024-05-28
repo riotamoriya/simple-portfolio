@@ -2,13 +2,76 @@ require("dotenv").config({
   path: `.env.${process.env.NODE_ENV}`,
 });
 
+const siteUrl = "https://moriyaryota.com/";
+const title = "Moriya Ryota's Portfolio"
+
+
 module.exports = {
   siteMetadata: {
-    title: "Gatsby Contentful Starter",
-    description: "Official Contentful Gatsby Starter",
+    title: `${title}`,
+    description: "Moriya Ryota's Portfolio",
+    author: "Moriya Ryota",
+    siteUrl: `${siteUrl}`,
   },
   plugins: [
-    "gatsby-plugin-netlify",
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: `${title}`,
+        short_name: `${title}`,
+        start_url: `/`,
+        background_color: `#663399`,
+        theme_color: `#663399`,
+        display: `minimal-ui`,
+        icon: `src/images/logo.png`,
+        icons: [
+          {
+            src: `icons/icon-72x72.png`,
+            sizes: `72x72`,
+            type: `image/png`
+          },
+          {
+            src: `icons/icon-96x96.png`,
+            sizes: `96x96`,
+            type: `image/png`
+          },
+          {
+            src: `icons/icon-128x128.png`,
+            sizes: `128x128`,
+            type: `image/png`
+          },
+          {
+            src: `icons/icon-144x144.png`,
+            sizes: `144x144`,
+            type: `image/png`
+          },
+          {
+            src: `icons/icon-152x152.png`,
+            sizes: `152x152`,
+            type: `image/png`
+          },
+          {
+            src: `icons/icon-192x192.png`,
+            sizes: `192x192`,
+            type: `image/png`
+          },
+          {
+            src: `icons/icon-384x384.png`,
+            sizes: `384x384`,
+            type: `image/png`
+          },
+          {
+            src: `icons/icon-512x512.png`,
+            sizes: `512x512`,
+            type: `image/png`
+          },
+        ]
+      },
+    },
+
+
+
+
     "gatsby-transformer-sharp",
     "gatsby-plugin-react-helmet",
     "gatsby-plugin-sharp",
@@ -21,5 +84,24 @@ module.exports = {
         host: process.env.CONTENTFUL_HOST
       },
     },
+
+    "gatsby-plugin-netlify",
+    {
+      resolve: `gatsby-plugin-sitemap`,
+      options: {
+        output: `/`, //サイトマップをルートディレクトリ直下に出力するようなオプション
+      },
+    },
+    `gatsby-plugin-robots-txt`,
+
+    {
+      resolve: `gatsby-plugin-canonical-urls`,　// 追加
+      options: {
+        siteUrl: `${siteUrl}`,
+        stripQueryString: true,
+      },
+    },
+
+
   ],
 };

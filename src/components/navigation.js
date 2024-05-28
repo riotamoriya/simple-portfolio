@@ -9,7 +9,8 @@ import { StaticImage } from "gatsby-plugin-image"
 const Navigation = () => (
   <nav role="navigation" className={styles.container} aria-label="Main">
     <Link to="/" className={styles.logoLink}>
-      <StaticImage src="./logo.png" alt="Logo" className={styles.logo} />
+
+      <StaticImage src="../images/logo.png" alt="Logo" className={styles.logo} />
       <span className={styles.navigationItem}>Moriya Ryota</span>
     </Link>
     <ul className={styles.navigation}>
