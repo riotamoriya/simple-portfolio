@@ -14,7 +14,7 @@ const Navigation = () => (
       <StaticImage src="./logo.png" alt="Logo" className={styles.logo} />
 
 
-      <span className={styles.navigationItem}>Simple-Portfolio</span>
+      <span className={styles.navigationItem}>Moriya Ryota</span>
     </Link>
     <ul className={styles.navigation}>
       <li className={styles.navigationItem}>
