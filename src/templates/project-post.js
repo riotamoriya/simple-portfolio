@@ -13,6 +13,8 @@ import Hero from '../components/hero'
 import Tags from '../components/tags'
 import * as styles from './blog-post.module.css'
 
+import TrackEvent from '../components/trackEvent'
+
 class ProjectPostTemplate extends React.Component {
   render() {
     const post = get(this.props, 'data.contentfulProjectPost')
@@ -44,6 +46,13 @@ class ProjectPostTemplate extends React.Component {
           title={post.title}
           description={plainTextDescription}
           image={`http:${post.heroImage.resize.src}`}
+        />
+        <TrackEvent
+          eventName="view_project"
+          eventParams={{
+            page_title: post.title,
+            project_id: post.id,
+          }}
         />
         <Hero
           image={post.heroImage?.gatsbyImage}
@@ -98,6 +107,7 @@ export const pageQuery = graphql`
     $nextPostSlug: String
   ) {
     contentfulProjectPost(slug: { eq: $slug }) {
+      id
       slug
       title
       author {
@@ -113,7 +123,6 @@ export const pageQuery = graphql`
       }
       body {
         raw
-        
       }
       techTags
       description {

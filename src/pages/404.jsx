@@ -1,13 +1,31 @@
 import Layout from '../components/layout'
-
-
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useCallback } from 'react';
 
 // 石取りゲームのコンポーネント
 const Game = () => {
   const [stones, setStones] = useState(21);
   const [playerTurn, setPlayerTurn] = useState(true);
-  const [message, setMessage] = useState('あなたのターンです。石を1〜3個取ってください。');
+  const [message, setMessage] = useState('あなたのターンです。石を1〜3個取ってください.');
+
+  const takeStones = useCallback((num) => {
+    setStones(prevStones => {
+      if (prevStones - num <= 0) {
+        setMessage(playerTurn ? 'あなたの負けです。' : 'あなたの勝ちです！');
+        return 0;
+      } else {
+        return prevStones - num;
+      }
+    });
+  }, []);
+
+  const computerMove = useCallback(() => {
+    const num = Math.min(Math.floor(Math.random() * 3) + 1, stones);
+    takeStones(num);
+    if (stones - num > 0) {
+      setPlayerTurn(true);
+      setMessage('あなたのターンです。石を1〜3個取ってください.');
+    }
+  }, [stones, takeStones]);
 
   useEffect(() => {
     if (!playerTurn && stones > 0) {
@@ -17,32 +35,12 @@ const Game = () => {
       }, 1000);
       return () => clearTimeout(timer);
     }
-  }, [playerTurn]);
-
-  const takeStones = (num) => {
-    setStones(prevStones => {
-      if (prevStones - num <= 0) {
-        setMessage(playerTurn ? 'あなたの負けです。' : 'あなたの勝ちです！');
-        return 0;
-      } else {
-        return prevStones - num;
-      }
-    });
-  };
+  }, [playerTurn, computerMove, stones]);
 
   const playerMove = (num) => {
     if (playerTurn && stones > 0) {
       takeStones(num);
       setPlayerTurn(false);
-    }
-  };
-
-  const computerMove = () => {
-    const num = Math.min(Math.floor(Math.random() * 3) + 1, stones);
-    takeStones(num);
-    if (stones - num > 0) {
-      setPlayerTurn(true);
-      setMessage('あなたのターンです。石を1〜3個取ってください。');
     }
   };
 
@@ -60,12 +58,6 @@ const Game = () => {
   );
 };
 
-
-
-
-
-
-
 const NotFoundPage = () => (
   <Layout>
     <div
@@ -80,7 +72,7 @@ const NotFoundPage = () => (
       
       <p>
         お客さまがアクセスしたページは、アドレスが変更されたか、削除された可能性があります。<br/>
-        お手数ですが上記のヘッダから目的の情報をお探しください。
+        お手数ですが上記のヘッダから目的の情報をお探しください.
       </p>
 
       
@@ -88,7 +80,5 @@ const NotFoundPage = () => (
     </div>
   </Layout>
 )
-
-
 
 export default NotFoundPage

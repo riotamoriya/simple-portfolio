@@ -103,5 +103,33 @@ module.exports = {
     },
 
 
+    {
+      resolve: `gatsby-plugin-google-gtag`,
+      options: {
+        trackingIds: [
+          process.env.CONTENTFUL_G4_MEASUREMENT_ID, // GA4の測定IDをここに記入
+        ],
+        gtagConfig: {
+          anonymize_ip: true,
+          cookie_expires: 0,
+        },
+        pluginConfig: {
+          head: true,
+          respectDNT: true,
+        },
+      },
+    },
+    {
+      resolve: `gatsby-plugin-google-tagmanager`,
+      options: {
+        id: process.env.CONTENTFUL_GTM_ID, // GTMのコンテナID
+        includeInDevelopment: false,
+        defaultDataLayer: { platform: "gatsby" },
+        gtmAuth: "P0K9ePx7VDUxLebdHylogA", // GTMのプレビューモードから取得
+        gtmPreview: "1", // GTMのプレビューモードから取得
+        dataLayerName: "dataLayer",
+      },
+    },
+
   ],
 };
