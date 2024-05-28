@@ -32,3 +32,12 @@
 
 ## ドキュメント
 詳細なドキュメントは[docs](./docs)フォルダを参照してください。
+
+
+## ライセンス
+このプロジェクトの著作権は以下の通りです：
+[LICENSE](./LICENSE.txt)
+
+### 謝辞
+以下のオープンソースプロジェクトを参考にいたしました。製作者様に感謝いたします。
+- [starter-gatsby-blog](https://github.com/contentful/starter-gatsby-blog) - MIT License
