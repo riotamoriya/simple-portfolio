@@ -50,6 +50,7 @@ class BlogPostTemplate extends React.Component {
           title={post.title}
           content={post.description}
         />
+        
         <div className={styles.container}>
           <span className={styles.meta}>
             {post.author?.name} &middot;{' '}

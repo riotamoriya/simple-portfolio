@@ -3,13 +3,13 @@ const path = require('path')
 exports.createPages = async ({ graphql, actions, reporter }) => {
   const { createPage } = actions
 
-  // Define a template for project post
-  const projectPost = path.resolve('./src/templates/project-post.js')
+  // Define a template for blog post
+  const blogPost = path.resolve('./src/templates/blog-post.js')
 
   const result = await graphql(
     `
       {
-        allContentfulProjectPost {
+        allContentfulBlogPost {
           nodes {
             title
             slug
@@ -27,10 +27,10 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
     return
   }
 
-  const posts = result.data.allContentfulProjectPost.nodes
+  const posts = result.data.allContentfulBlogPost.nodes
 
-  // Create project posts pages
-  // But only if there's at least one project post found in Contentful
+  // Create blog posts pages
+  // But only if there's at least one blog post found in Contentful
   // `context` is available in the template as a prop and as a variable in GraphQL
 
   if (posts.length > 0) {
@@ -40,8 +40,8 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
         index === posts.length - 1 ? null : posts[index + 1].slug
 
       createPage({
-        path: `/project/${post.slug}/`,
-        component: projectPost,
+        path: `/blog/${post.slug}/`,
+        component: blogPost,
         context: {
           slug: post.slug,
           previousPostSlug,
