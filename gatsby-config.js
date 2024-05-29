@@ -107,7 +107,7 @@ module.exports = {
       resolve: `gatsby-plugin-google-gtag`,
       options: {
         trackingIds: [
-          process.env.CONTENTFUL_G4_MEASUREMENT_ID, // GA4の測定IDをここに記入
+          `${process.env.CONTENTFUL_G4_MEASUREMENT_ID}`, // GA4の測定IDをここに記入
         ],
         gtagConfig: {
           anonymize_ip: true,
@@ -122,7 +122,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-tagmanager`,
       options: {
-        id: process.env.CONTENTFUL_GTM_ID, // GTMのコンテナID
+        id: `${process.env.CONTENTFUL_GTM_ID}`, // GTMのコンテナID
         includeInDevelopment: false,
         defaultDataLayer: { platform: "gatsby" },
         gtmAuth: "P0K9ePx7VDUxLebdHylogA", // GTMのプレビューモードから取得

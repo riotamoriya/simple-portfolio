@@ -40,6 +40,7 @@ class ProjectPostTemplate extends React.Component {
       },
     };
 
+    
     return (
       <Layout location={this.props.location}>
         <Seo
@@ -66,6 +67,13 @@ class ProjectPostTemplate extends React.Component {
             <time dateTime={post.rawDate}>{post.publishDate}</time> –{' '}
             {timeToRead} minute read
           </span>
+
+
+          {/* <span className={styles.meta}>
+            {post.author?.name} &middot;{' '}
+            <time dateTime={post.rawDate}>{post.publishDate}</time> –{' '}
+            {timeToRead} minute read
+          </span> */}
           <div className={styles.article}>
             <div className={styles.body}>
               {post.body?.raw && renderRichText(post.body, options)}

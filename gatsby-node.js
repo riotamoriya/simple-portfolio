@@ -4,7 +4,7 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
   const { createPage } = actions
 
   // Define a template for project post
-  const projectPost = path.resolve('./src/templates/project-post.js')
+  const projectPost = path.resolve('./src/templates/project-post.jsx')
 
   const result = await graphql(
     `
