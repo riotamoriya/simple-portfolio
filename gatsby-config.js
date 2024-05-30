@@ -15,6 +15,29 @@ module.exports = {
   },
   plugins: [
     {
+      resolve: 'gatsby-plugin-mdx',
+      options: {
+        extensions: ['.mdx', '.md'],
+        gatsbyRemarkPlugins: [
+          {
+            resolve: 'gatsby-remark-images',
+            options: {
+              maxWidth: 1200,
+            },
+          },
+          'gatsby-remark-prismjs',
+        ],
+      },
+    },
+    
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `pages`,
+        path: `${__dirname}/src/pages`,
+      },
+    },
+    {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `${title}`,
@@ -125,11 +148,12 @@ module.exports = {
         id: `${process.env.CONTENTFUL_GTM_ID}`, // GTMのコンテナID
         includeInDevelopment: false,
         defaultDataLayer: { platform: "gatsby" },
-        gtmAuth: "P0K9ePx7VDUxLebdHylogA", // GTMのプレビューモードから取得
-        gtmPreview: "1", // GTMのプレビューモードから取得
+        gtmAuth: `${process.env.CONTENTFUL_GTM_AUTH}`, // GTMのプレビューモードから取得
+        gtmPreview: `${process.env.CONTENTFUL_GTM_PREVIEW}`, // GTMのプレビューモードから取得
         dataLayerName: "dataLayer",
       },
     },
+
 
     {
       resolve: `gatsby-transformer-remark`,
@@ -140,5 +164,6 @@ module.exports = {
         gfm: true,
       },
     },
+    
   ],
 };

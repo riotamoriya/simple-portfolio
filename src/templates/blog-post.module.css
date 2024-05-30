@@ -21,6 +21,11 @@
 
 .body {
   max-width: 48rem;
+
+  overflow-wrap: break-word; /* 長い単語も途中で改行 */
+  word-wrap: break-word;     /* IE11以前のサポート */
+  word-break: break-all;     /* 任意の位置で改行 */
+  white-space: normal;       /* 改行や空白を正常に扱う */
 }
 
 .article a {
@@ -93,4 +98,11 @@
   .article ol {
     padding-left: 5px;
   }
+}
+
+.content {
+  overflow-wrap: break-word; /* 長い単語も途中で改行 */
+  word-wrap: break-word;     /* IE11以前のサポート */
+  word-break: break-all;     /* 任意の位置で改行 */
+  white-space: normal;       /* 改行や空白を正常に扱う */
 }

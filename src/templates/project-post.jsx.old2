@@ -1,5 +1,3 @@
-// project-post.jsx
-
 import React from 'react'
 import { Link, graphql } from 'gatsby'
 import get from 'lodash/get'
@@ -25,10 +23,27 @@ class ProjectPostTemplate extends React.Component {
     const plainTextDescription = documentToPlainTextString(
       JSON.parse(post.description.raw)
     )
+    // const plainTextBody = documentToPlainTextString(JSON.parse(post.body.raw))
 
     const markdownBody = post.markdownBody
 
     const { minutes: timeToRead } = readingTime(markdownBody.markdownBody)
+    
+    // const options = {
+    //   renderNode: {
+    //     [BLOCKS.EMBEDDED_ASSET]: (node) => {
+    //     const { gatsbyImage, description } = node.data.target
+    //     return (
+    //        <GatsbyImage
+    //           image={getImage(gatsbyImage)}
+    //           alt={description}
+    //        />
+    //      )
+    //     },
+    //   },
+    // };
+
+
     
     return (
       <Layout location={this.props.location}>

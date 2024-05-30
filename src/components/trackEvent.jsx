@@ -1,3 +1,4 @@
+// trackEvent.jsx
 import { useEffect } from 'react';
 import { useLocation } from '@reach/router';
 
@@ -9,7 +10,7 @@ const TrackEvent = ({ eventName, eventParams }) => {
       window.dataLayer.push({
         event: 'track_event', // GTMで設定したカスタムイベント名
         eventName, // 'view_project'
-        ...eventParams, // { page_title: post.title, project_id: post.id }
+        ...eventParams, // { page_title: post.title, page_id: post.id }
         page_path: location.pathname,
         page_location: window.location.href,
       });

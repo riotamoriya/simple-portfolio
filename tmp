@@ -1,0 +1,2759 @@
+
+> contentful-starter-gatsby-blog@0.0.1 dev
+> gatsby develop
+
+success compile gatsby files - 0.676s
+
+[2K[1A[2K[Gsuccess load gatsby config - 0.031s
+
+[2K[1A[2K[G
+ ERROR  UNKNOWN
+
+There was a problem loading plugin "gatsby-remark-images". Perhaps you need to
+install its package?
+Use --verbose to see actual error.
+
+
+[2K[1A[2K[GError: unreachable
+    at resolvePlugin (/Users/dyethesky/myApp/simple-portfolio/node_modules/gatsb
+y/src/bootstrap/load-plugins/resolve-plugin.ts:95:11)
+    at map (/Users/dyethesky/myApp/simple-portfolio/node_modules/gatsby/src/boot
+strap/load-plugins/validate.ts:254:57)
+    at Array.map (<anonymous>)
+    at /Users/dyethesky/myApp/simple-portfolio/node_modules/gatsby/src/bootstrap
+/load-plugins/validate.ts:248:35
+    at Object.validate (/Users/dyethesky/myApp/simple-portfolio/node_modules/joi
+/lib/types/any.js:47:28)
+    at Object.internals.rules (/Users/dyethesky/myApp/simple-portfolio/node_modu
+les/joi/lib/validator.js:494:33)
+    at Object.exports.validate (/Users/dyethesky/myApp/simple-portfolio/node_mod
+ules/joi/lib/validator.js:450:22)
+    at internals.Base.$_validate
+(/Users/dyethesky/myApp/simple-portfolio/node_modules/joi/lib/base.js:774:26)
+    at Object.validate (/Users/dyethesky/myApp/simple-portfolio/node_modules/joi
+/lib/types/keys.js:108:45)
+    at Object.exports.validate (/Users/dyethesky/myApp/simple-portfolio/node_mod
+ules/joi/lib/validator.js:425:26)
+    at Object.internals.entry (/Users/dyethesky/myApp/simple-portfolio/node_modu
+les/joi/lib/validator.js:242:28)
+    at Object.exports.entryAsync (/Users/dyethesky/myApp/simple-portfolio/node_m
+odules/joi/lib/validator.js:58:30)
+    at internals.Base.validateAsync
+(/Users/dyethesky/myApp/simple-portfolio/node_modules/joi/lib/base.js:553:26)
+    at validateOptionsSchema (/Users/dyethesky/myApp/simple-portfolio/node_modul
+es/gatsby-plugin-utils/dist/validate.js:20:36)
+    at /Users/dyethesky/myApp/simple-portfolio/node_modules/gatsby/src/bootstrap
+/load-plugins/validate.ts:342:63
+    at async Promise.all (index 0)
+
+[2K[1A[2K[G
+ ERROR  UNKNOWN
+
+There was a problem loading plugin "gatsby-remark-prismjs". Perhaps you need to
+install its package?
+Use --verbose to see actual error.
+
+
+[2K[1A[2K[GError: unreachable
+    at resolvePlugin (/Users/dyethesky/myApp/simple-portfolio/node_modules/gatsb
+y/src/bootstrap/load-plugins/resolve-plugin.ts:95:11)
+    at map (/Users/dyethesky/myApp/simple-portfolio/node_modules/gatsby/src/boot
+strap/load-plugins/validate.ts:254:57)
+    at Array.map (<anonymous>)
+    at /Users/dyethesky/myApp/simple-portfolio/node_modules/gatsby/src/bootstrap
+/load-plugins/validate.ts:248:35
+    at Object.validate (/Users/dyethesky/myApp/simple-portfolio/node_modules/joi
+/lib/types/any.js:47:28)
+    at Object.internals.rules (/Users/dyethesky/myApp/simple-portfolio/node_modu
+les/joi/lib/validator.js:494:33)
+    at Object.exports.validate (/Users/dyethesky/myApp/simple-portfolio/node_mod
+ules/joi/lib/validator.js:450:22)
+    at internals.Base.$_validate
+(/Users/dyethesky/myApp/simple-portfolio/node_modules/joi/lib/base.js:774:26)
+    at Object.validate (/Users/dyethesky/myApp/simple-portfolio/node_modules/joi
+/lib/types/keys.js:108:45)
+    at Object.exports.validate (/Users/dyethesky/myApp/simple-portfolio/node_mod
+ules/joi/lib/validator.js:425:26)
+    at Object.internals.entry (/Users/dyethesky/myApp/simple-portfolio/node_modu
+les/joi/lib/validator.js:242:28)
+    at Object.exports.entryAsync (/Users/dyethesky/myApp/simple-portfolio/node_m
+odules/joi/lib/validator.js:58:30)
+    at internals.Base.validateAsync
+(/Users/dyethesky/myApp/simple-portfolio/node_modules/joi/lib/base.js:553:26)
+    at validateOptionsSchema (/Users/dyethesky/myApp/simple-portfolio/node_modul
+es/gatsby-plugin-utils/dist/validate.js:20:36)
+    at /Users/dyethesky/myApp/simple-portfolio/node_modules/gatsby/src/bootstrap
+/load-plugins/validate.ts:342:63
+    at async Promise.all (index 0)
+
+[2K[1A[2K[G
+ ERROR  UNKNOWN
+
+There was a problem loading plugin "gatsby-remark-images". Perhaps you need to
+install its package?
+Use --verbose to see actual error.
+
+
+[2K[1A[2K[G
+ ERROR  UNKNOWN
+
+There was a problem loading plugin "gatsby-remark-prismjs". Perhaps you need to
+install its package?
+Use --verbose to see actual error.
+
+
+[2K[1A[2K[Gsuccess load plugins - 0.687s
+
+[2K[1A[2K[Gwarn gatsby-plugin-react-helmet: Gatsby now has built-in support for modifying
+the document head. Learn more at https://gatsby.dev/gatsby-head
+
+[2K[1A[2K[Gsuccess onPreInit - 0.006s
+
+[2K[1A[2K[Gsuccess initialize cache - 0.031s
+
+[2K[1A[2K[Gsuccess copy gatsby files - 0.071s
+
+[2K[1A[2K[Gsuccess Compiling Gatsby Functions - 0.191s
+
+[2K[1A[2K[Gsuccess onPreBootstrap - 0.209s
+
+[2K[1A[2K[Gsuccess createSchemaCustomization - 0.184s
+
+[2K[1A[2K[Gsuccess Contentful: Sync changed items - 0.308s - 1/1 3.24/s
+
+[2K[1A[2K[Gsuccess Contentful: Fetch data - 0.470s
+
+[2K[1A[2K[Ginfo Contentful: 0 new entries
+
+[2K[1A[2K[Ginfo Contentful: 0 updated entries
+
+[2K[1A[2K[Ginfo Contentful: 0 deleted entries
+
+[2K[1A[2K[Ginfo Contentful: 7 cached entries
+
+[2K[1A[2K[Ginfo Contentful: 0 new assets
+
+[2K[1A[2K[Ginfo Contentful: 0 updated assets
+
+[2K[1A[2K[Ginfo Contentful: 6 cached assets
+
+[2K[1A[2K[Ginfo Contentful: 0 deleted assets
+
+[2K[1A[2K[Gsuccess Contentful: Create nodes - 0.007s
+
+[2K[1A[2K[Gsuccess Contentful: Process data - 0.028s
+
+[2K[1A[2K[Gsuccess Clean up stale nodes - 0.015s - 8/0 0.00/s
+
+[2K[1A[2K[Gsuccess Checking for changed pages - 0.000s
+
+[2K[1A[2K[Gsuccess source and transform nodes - 0.622s
+
+[2K[1A[2K[Gsuccess building schema - 0.472s
+
+[2K[1A[2K[Gsuccess createPages - 0.119s
+
+[2K[1A[2K[Gsuccess createPagesStatefully - 0.189s
+
+[2K[1A[2K[Ginfo Total nodes: 75, SitePage nodes: 7 (use --verbose for breakdown)
+
+[2K[1A[2K[Gsuccess Checking for changed pages - 0.001s
+
+[2K[1A[2K[Gsuccess write out redirect data - 0.001s
+
+[2K[1A[2K[Gwarn The icon(src/images/logo.png) you provided to 'gatsby-plugin-manifest' is
+not square.
+The icons we generate will be square and for the best results we recommend you
+provide a square icon.
+
+
+[2K[1A[2K[Gsuccess Build manifest and related icons - 0.409s
+
+[2K[1A[2K[Gsuccess onPostBootstrap - 0.418s
+
+[2K[1A[2K[Ginfo bootstrap finished - 4.752s
+
+[2K[1A[2K[Gsuccess onPreExtractQueries - 0.003s
+
+[2K[1A[2K[G
+ ERROR #11321  API.NODE.EXECUTION
+
+"gatsby-plugin-mdx" threw an error while running the preprocessSource lifecycle:
+
+Cannot read properties of undefined (reading 'setParserPlugins')
+
+  111 |     return undefined;
+  112 |   }
+> 113 |   const mdxOptions = await (0,
+_pluginOptions.enhanceMdxOptions)(pluginOptions, {
+      |                      ^
+  114 |     getNode,
+  115 |     getNodesByType,
+  116 |     pathPrefix,
+
+File: node_modules/gatsby-plugin-mdx/dist/gatsby-node.js:113:22
+
+
+[2K[1A[2K[G
+[0m
+[0m  [0m[97m[41mTypeError[0m[37m[41m:[0m[37m[41m [0m[97m[41mCannot read properties of undefined (reading 'setParserPlugins')[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mplugin-options.js[0m[90m:[0m[93m68[0m[37m [0m[37menhanceMdxOptions[0m
+[0m  [0m  [0m[90m[simple-portfolio]/[gatsby-plugin-mdx]/dist/plugin-options.js:68:33[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mgatsby-node.js[0m[90m:[0m[93m113[0m[37m [0m[37mObject.preprocessSource[0m
+[0m  [0m  [0m[90m[simple-portfolio]/[gatsby-plugin-mdx]/dist/gatsby-node.js:113:22[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mapi-runner-node.js[0m[90m:[0m[93m509[0m[37m [0m[37mrunAPI[0m
+[0m  [0m  [0m[90m[simple-portfolio]/[gatsby]/src/utils/api-runner-node.js:509:16[0m
+[0m  [0m
+[0m
+
+[2K[1A[2K[G
+ ERROR #11321  API.NODE.EXECUTION
+
+"gatsby-plugin-mdx" threw an error while running the preprocessSource lifecycle:
+
+Cannot read properties of undefined (reading 'setParserPlugins')
+
+  111 |     return undefined;
+  112 |   }
+> 113 |   const mdxOptions = await (0,
+_pluginOptions.enhanceMdxOptions)(pluginOptions, {
+      |                      ^
+  114 |     getNode,
+  115 |     getNodesByType,
+  116 |     pathPrefix,
+
+File: node_modules/gatsby-plugin-mdx/dist/gatsby-node.js:113:22
+
+
+[2K[1A[2K[G
+[0m
+[0m  [0m[97m[41mTypeError[0m[37m[41m:[0m[37m[41m [0m[97m[41mCannot read properties of undefined (reading 'setParserPlugins')[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mplugin-options.js[0m[90m:[0m[93m68[0m[37m [0m[37menhanceMdxOptions[0m
+[0m  [0m  [0m[90m[simple-portfolio]/[gatsby-plugin-mdx]/dist/plugin-options.js:68:33[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mgatsby-node.js[0m[90m:[0m[93m113[0m[37m [0m[37mObject.preprocessSource[0m
+[0m  [0m  [0m[90m[simple-portfolio]/[gatsby-plugin-mdx]/dist/gatsby-node.js:113:22[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mapi-runner-node.js[0m[90m:[0m[93m509[0m[37m [0m[37mrunAPI[0m
+[0m  [0m  [0m[90m[simple-portfolio]/[gatsby]/src/utils/api-runner-node.js:509:16[0m
+[0m  [0m
+[0m
+
+[2K[1A[2K[G
+ ERROR #11321  API.NODE.EXECUTION
+
+"gatsby-plugin-mdx" threw an error while running the preprocessSource lifecycle:
+
+Cannot read properties of undefined (reading 'setParserPlugins')
+
+  111 |     return undefined;
+  112 |   }
+> 113 |   const mdxOptions = await (0,
+_pluginOptions.enhanceMdxOptions)(pluginOptions, {
+      |                      ^
+  114 |     getNode,
+  115 |     getNodesByType,
+  116 |     pathPrefix,
+
+File: node_modules/gatsby-plugin-mdx/dist/gatsby-node.js:113:22
+
+
+[2K[1A[2K[G
+[0m
+[0m  [0m[97m[41mTypeError[0m[37m[41m:[0m[37m[41m [0m[97m[41mCannot read properties of undefined (reading 'setParserPlugins')[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mplugin-options.js[0m[90m:[0m[93m68[0m[37m [0m[37menhanceMdxOptions[0m
+[0m  [0m  [0m[90m[simple-portfolio]/[gatsby-plugin-mdx]/dist/plugin-options.js:68:33[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mgatsby-node.js[0m[90m:[0m[93m113[0m[37m [0m[37mObject.preprocessSource[0m
+[0m  [0m  [0m[90m[simple-portfolio]/[gatsby-plugin-mdx]/dist/gatsby-node.js:113:22[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mapi-runner-node.js[0m[90m:[0m[93m509[0m[37m [0m[37mrunAPI[0m
+[0m  [0m  [0m[90m[simple-portfolio]/[gatsby]/src/utils/api-runner-node.js:509:16[0m
+[0m  [0m
+[0m
+
+[2K[1A[2K[G
+ ERROR #11321  API.NODE.EXECUTION
+
+"gatsby-plugin-mdx" threw an error while running the preprocessSource lifecycle:
+
+Cannot read properties of undefined (reading 'setParserPlugins')
+
+  111 |     return undefined;
+  112 |   }
+> 113 |   const mdxOptions = await (0,
+_pluginOptions.enhanceMdxOptions)(pluginOptions, {
+      |                      ^
+  114 |     getNode,
+  115 |     getNodesByType,
+  116 |     pathPrefix,
+
+File: node_modules/gatsby-plugin-mdx/dist/gatsby-node.js:113:22
+
+
+[2K[1A[2K[G
+[0m
+[0m  [0m[97m[41mTypeError[0m[37m[41m:[0m[37m[41m [0m[97m[41mCannot read properties of undefined (reading 'setParserPlugins')[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mplugin-options.js[0m[90m:[0m[93m68[0m[37m [0m[37menhanceMdxOptions[0m
+[0m  [0m  [0m[90m[simple-portfolio]/[gatsby-plugin-mdx]/dist/plugin-options.js:68:33[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mgatsby-node.js[0m[90m:[0m[93m113[0m[37m [0m[37mObject.preprocessSource[0m
+[0m  [0m  [0m[90m[simple-portfolio]/[gatsby-plugin-mdx]/dist/gatsby-node.js:113:22[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mapi-runner-node.js[0m[90m:[0m[93m509[0m[37m [0m[37mrunAPI[0m
+[0m  [0m  [0m[90m[simple-portfolio]/[gatsby]/src/utils/api-runner-node.js:509:16[0m
+[0m  [0m
+[0m
+
+[2K[1A[2K[G
+ ERROR #11321  API.NODE.EXECUTION
+
+"gatsby-plugin-mdx" threw an error while running the preprocessSource lifecycle:
+
+Cannot read properties of undefined (reading 'setParserPlugins')
+
+  111 |     return undefined;
+  112 |   }
+> 113 |   const mdxOptions = await (0,
+_pluginOptions.enhanceMdxOptions)(pluginOptions, {
+      |                      ^
+  114 |     getNode,
+  115 |     getNodesByType,
+  116 |     pathPrefix,
+
+File: node_modules/gatsby-plugin-mdx/dist/gatsby-node.js:113:22
+
+
+[2K[1A[2K[G
+[0m
+[0m  [0m[97m[41mTypeError[0m[37m[41m:[0m[37m[41m [0m[97m[41mCannot read properties of undefined (reading 'setParserPlugins')[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mplugin-options.js[0m[90m:[0m[93m68[0m[37m [0m[37menhanceMdxOptions[0m
+[0m  [0m  [0m[90m[simple-portfolio]/[gatsby-plugin-mdx]/dist/plugin-options.js:68:33[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mgatsby-node.js[0m[90m:[0m[93m113[0m[37m [0m[37mObject.preprocessSource[0m
+[0m  [0m  [0m[90m[simple-portfolio]/[gatsby-plugin-mdx]/dist/gatsby-node.js:113:22[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mapi-runner-node.js[0m[90m:[0m[93m509[0m[37m [0m[37mrunAPI[0m
+[0m  [0m  [0m[90m[simple-portfolio]/[gatsby]/src/utils/api-runner-node.js:509:16[0m
+[0m  [0m
+[0m
+
+[2K[1A[2K[G
+ ERROR #11321  API.NODE.EXECUTION
+
+"gatsby-plugin-mdx" threw an error while running the preprocessSource lifecycle:
+
+Cannot read properties of undefined (reading 'setParserPlugins')
+
+  111 |     return undefined;
+  112 |   }
+> 113 |   const mdxOptions = await (0,
+_pluginOptions.enhanceMdxOptions)(pluginOptions, {
+      |                      ^
+  114 |     getNode,
+  115 |     getNodesByType,
+  116 |     pathPrefix,
+
+File: node_modules/gatsby-plugin-mdx/dist/gatsby-node.js:113:22
+
+
+[2K[1A[2K[G
+[0m
+[0m  [0m[97m[41mTypeError[0m[37m[41m:[0m[37m[41m [0m[97m[41mCannot read properties of undefined (reading 'setParserPlugins')[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mplugin-options.js[0m[90m:[0m[93m68[0m[37m [0m[37menhanceMdxOptions[0m
+[0m  [0m  [0m[90m[simple-portfolio]/[gatsby-plugin-mdx]/dist/plugin-options.js:68:33[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mgatsby-node.js[0m[90m:[0m[93m113[0m[37m [0m[37mObject.preprocessSource[0m
+[0m  [0m  [0m[90m[simple-portfolio]/[gatsby-plugin-mdx]/dist/gatsby-node.js:113:22[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mapi-runner-node.js[0m[90m:[0m[93m509[0m[37m [0m[37mrunAPI[0m
+[0m  [0m  [0m[90m[simple-portfolio]/[gatsby]/src/utils/api-runner-node.js:509:16[0m
+[0m  [0m
+[0m
+
+[2K[1A[2K[G
+ ERROR #11321  API.NODE.EXECUTION
+
+"gatsby-plugin-mdx" threw an error while running the preprocessSource lifecycle:
+
+Cannot read properties of undefined (reading 'setParserPlugins')
+
+  111 |     return undefined;
+  112 |   }
+> 113 |   const mdxOptions = await (0,
+_pluginOptions.enhanceMdxOptions)(pluginOptions, {
+      |                      ^
+  114 |     getNode,
+  115 |     getNodesByType,
+  116 |     pathPrefix,
+
+File: node_modules/gatsby-plugin-mdx/dist/gatsby-node.js:113:22
+
+
+[2K[1A[2K[G
+[0m
+[0m  [0m[97m[41mTypeError[0m[37m[41m:[0m[37m[41m [0m[97m[41mCannot read properties of undefined (reading 'setParserPlugins')[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mplugin-options.js[0m[90m:[0m[93m68[0m[37m [0m[37menhanceMdxOptions[0m
+[0m  [0m  [0m[90m[simple-portfolio]/[gatsby-plugin-mdx]/dist/plugin-options.js:68:33[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mgatsby-node.js[0m[90m:[0m[93m113[0m[37m [0m[37mObject.preprocessSource[0m
+[0m  [0m  [0m[90m[simple-portfolio]/[gatsby-plugin-mdx]/dist/gatsby-node.js:113:22[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mapi-runner-node.js[0m[90m:[0m[93m509[0m[37m [0m[37mrunAPI[0m
+[0m  [0m  [0m[90m[simple-portfolio]/[gatsby]/src/utils/api-runner-node.js:509:16[0m
+[0m  [0m
+[0m
+
+[2K[1A[2K[G
+ ERROR #11321  API.NODE.EXECUTION
+
+"gatsby-plugin-mdx" threw an error while running the preprocessSource lifecycle:
+
+Cannot read properties of undefined (reading 'setParserPlugins')
+
+  111 |     return undefined;
+  112 |   }
+> 113 |   const mdxOptions = await (0,
+_pluginOptions.enhanceMdxOptions)(pluginOptions, {
+      |                      ^
+  114 |     getNode,
+  115 |     getNodesByType,
+  116 |     pathPrefix,
+
+File: node_modules/gatsby-plugin-mdx/dist/gatsby-node.js:113:22
+
+
+[2K[1A[2K[G
+[0m
+[0m  [0m[97m[41mTypeError[0m[37m[41m:[0m[37m[41m [0m[97m[41mCannot read properties of undefined (reading 'setParserPlugins')[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mplugin-options.js[0m[90m:[0m[93m68[0m[37m [0m[37menhanceMdxOptions[0m
+[0m  [0m  [0m[90m[simple-portfolio]/[gatsby-plugin-mdx]/dist/plugin-options.js:68:33[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mgatsby-node.js[0m[90m:[0m[93m113[0m[37m [0m[37mObject.preprocessSource[0m
+[0m  [0m  [0m[90m[simple-portfolio]/[gatsby-plugin-mdx]/dist/gatsby-node.js:113:22[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mapi-runner-node.js[0m[90m:[0m[93m509[0m[37m [0m[37mrunAPI[0m
+[0m  [0m  [0m[90m[simple-portfolio]/[gatsby]/src/utils/api-runner-node.js:509:16[0m
+[0m  [0m
+[0m
+
+[2K[1A[2K[G
+ ERROR #11321  API.NODE.EXECUTION
+
+"gatsby-plugin-mdx" threw an error while running the preprocessSource lifecycle:
+
+Cannot read properties of undefined (reading 'setParserPlugins')
+
+  111 |     return undefined;
+  112 |   }
+> 113 |   const mdxOptions = await (0,
+_pluginOptions.enhanceMdxOptions)(pluginOptions, {
+      |                      ^
+  114 |     getNode,
+  115 |     getNodesByType,
+  116 |     pathPrefix,
+
+File: node_modules/gatsby-plugin-mdx/dist/gatsby-node.js:113:22
+
+
+[2K[1A[2K[G
+[0m
+[0m  [0m[97m[41mTypeError[0m[37m[41m:[0m[37m[41m [0m[97m[41mCannot read properties of undefined (reading 'setParserPlugins')[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mplugin-options.js[0m[90m:[0m[93m68[0m[37m [0m[37menhanceMdxOptions[0m
+[0m  [0m  [0m[90m[simple-portfolio]/[gatsby-plugin-mdx]/dist/plugin-options.js:68:33[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mgatsby-node.js[0m[90m:[0m[93m113[0m[37m [0m[37mObject.preprocessSource[0m
+[0m  [0m  [0m[90m[simple-portfolio]/[gatsby-plugin-mdx]/dist/gatsby-node.js:113:22[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mapi-runner-node.js[0m[90m:[0m[93m509[0m[37m [0m[37mrunAPI[0m
+[0m  [0m  [0m[90m[simple-portfolio]/[gatsby]/src/utils/api-runner-node.js:509:16[0m
+[0m  [0m
+[0m
+
+[2K[1A[2K[G
+ ERROR #11321  API.NODE.EXECUTION
+
+"gatsby-plugin-mdx" threw an error while running the preprocessSource lifecycle:
+
+Cannot read properties of undefined (reading 'setParserPlugins')
+
+  111 |     return undefined;
+  112 |   }
+> 113 |   const mdxOptions = await (0,
+_pluginOptions.enhanceMdxOptions)(pluginOptions, {
+      |                      ^
+  114 |     getNode,
+  115 |     getNodesByType,
+  116 |     pathPrefix,
+
+File: node_modules/gatsby-plugin-mdx/dist/gatsby-node.js:113:22
+
+
+[2K[1A[2K[G
+[0m
+[0m  [0m[97m[41mTypeError[0m[37m[41m:[0m[37m[41m [0m[97m[41mCannot read properties of undefined (reading 'setParserPlugins')[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mplugin-options.js[0m[90m:[0m[93m68[0m[37m [0m[37menhanceMdxOptions[0m
+[0m  [0m  [0m[90m[simple-portfolio]/[gatsby-plugin-mdx]/dist/plugin-options.js:68:33[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mgatsby-node.js[0m[90m:[0m[93m113[0m[37m [0m[37mObject.preprocessSource[0m
+[0m  [0m  [0m[90m[simple-portfolio]/[gatsby-plugin-mdx]/dist/gatsby-node.js:113:22[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mapi-runner-node.js[0m[90m:[0m[93m509[0m[37m [0m[37mrunAPI[0m
+[0m  [0m  [0m[90m[simple-portfolio]/[gatsby]/src/utils/api-runner-node.js:509:16[0m
+[0m  [0m
+[0m
+
+[2K[1A[2K[G
+ ERROR #11321  API.NODE.EXECUTION
+
+"gatsby-plugin-mdx" threw an error while running the preprocessSource lifecycle:
+
+Cannot read properties of undefined (reading 'setParserPlugins')
+
+  111 |     return undefined;
+  112 |   }
+> 113 |   const mdxOptions = await (0,
+_pluginOptions.enhanceMdxOptions)(pluginOptions, {
+      |                      ^
+  114 |     getNode,
+  115 |     getNodesByType,
+  116 |     pathPrefix,
+
+File: node_modules/gatsby-plugin-mdx/dist/gatsby-node.js:113:22
+
+
+[2K[1A[2K[G
+[0m
+[0m  [0m[97m[41mTypeError[0m[37m[41m:[0m[37m[41m [0m[97m[41mCannot read properties of undefined (reading 'setParserPlugins')[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mplugin-options.js[0m[90m:[0m[93m68[0m[37m [0m[37menhanceMdxOptions[0m
+[0m  [0m  [0m[90m[simple-portfolio]/[gatsby-plugin-mdx]/dist/plugin-options.js:68:33[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mgatsby-node.js[0m[90m:[0m[93m113[0m[37m [0m[37mObject.preprocessSource[0m
+[0m  [0m  [0m[90m[simple-portfolio]/[gatsby-plugin-mdx]/dist/gatsby-node.js:113:22[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mapi-runner-node.js[0m[90m:[0m[93m509[0m[37m [0m[37mrunAPI[0m
+[0m  [0m  [0m[90m[simple-portfolio]/[gatsby]/src/utils/api-runner-node.js:509:16[0m
+[0m  [0m
+[0m
+
+[2K[1A[2K[G
+ ERROR #11321  API.NODE.EXECUTION
+
+"gatsby-plugin-mdx" threw an error while running the preprocessSource lifecycle:
+
+Cannot read properties of undefined (reading 'setParserPlugins')
+
+  111 |     return undefined;
+  112 |   }
+> 113 |   const mdxOptions = await (0,
+_pluginOptions.enhanceMdxOptions)(pluginOptions, {
+      |                      ^
+  114 |     getNode,
+  115 |     getNodesByType,
+  116 |     pathPrefix,
+
+File: node_modules/gatsby-plugin-mdx/dist/gatsby-node.js:113:22
+
+
+[2K[1A[2K[G
+[0m
+[0m  [0m[97m[41mTypeError[0m[37m[41m:[0m[37m[41m [0m[97m[41mCannot read properties of undefined (reading 'setParserPlugins')[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mplugin-options.js[0m[90m:[0m[93m68[0m[37m [0m[37menhanceMdxOptions[0m
+[0m  [0m  [0m[90m[simple-portfolio]/[gatsby-plugin-mdx]/dist/plugin-options.js:68:33[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mgatsby-node.js[0m[90m:[0m[93m113[0m[37m [0m[37mObject.preprocessSource[0m
+[0m  [0m  [0m[90m[simple-portfolio]/[gatsby-plugin-mdx]/dist/gatsby-node.js:113:22[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mapi-runner-node.js[0m[90m:[0m[93m509[0m[37m [0m[37mrunAPI[0m
+[0m  [0m  [0m[90m[simple-portfolio]/[gatsby]/src/utils/api-runner-node.js:509:16[0m
+[0m  [0m
+[0m
+
+[2K[1A[2K[G
+ ERROR #11321  API.NODE.EXECUTION
+
+"gatsby-plugin-mdx" threw an error while running the preprocessSource lifecycle:
+
+Cannot read properties of undefined (reading 'setParserPlugins')
+
+  111 |     return undefined;
+  112 |   }
+> 113 |   const mdxOptions = await (0,
+_pluginOptions.enhanceMdxOptions)(pluginOptions, {
+      |                      ^
+  114 |     getNode,
+  115 |     getNodesByType,
+  116 |     pathPrefix,
+
+File: node_modules/gatsby-plugin-mdx/dist/gatsby-node.js:113:22
+
+
+[2K[1A[2K[G
+[0m
+[0m  [0m[97m[41mTypeError[0m[37m[41m:[0m[37m[41m [0m[97m[41mCannot read properties of undefined (reading 'setParserPlugins')[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mplugin-options.js[0m[90m:[0m[93m68[0m[37m [0m[37menhanceMdxOptions[0m
+[0m  [0m  [0m[90m[simple-portfolio]/[gatsby-plugin-mdx]/dist/plugin-options.js:68:33[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mgatsby-node.js[0m[90m:[0m[93m113[0m[37m [0m[37mObject.preprocessSource[0m
+[0m  [0m  [0m[90m[simple-portfolio]/[gatsby-plugin-mdx]/dist/gatsby-node.js:113:22[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mapi-runner-node.js[0m[90m:[0m[93m509[0m[37m [0m[37mrunAPI[0m
+[0m  [0m  [0m[90m[simple-portfolio]/[gatsby]/src/utils/api-runner-node.js:509:16[0m
+[0m  [0m
+[0m
+
+[2K[1A[2K[G
+ ERROR #11321  API.NODE.EXECUTION
+
+"gatsby-plugin-mdx" threw an error while running the preprocessSource lifecycle:
+
+Cannot read properties of undefined (reading 'setParserPlugins')
+
+  111 |     return undefined;
+  112 |   }
+> 113 |   const mdxOptions = await (0,
+_pluginOptions.enhanceMdxOptions)(pluginOptions, {
+      |                      ^
+  114 |     getNode,
+  115 |     getNodesByType,
+  116 |     pathPrefix,
+
+File: node_modules/gatsby-plugin-mdx/dist/gatsby-node.js:113:22
+
+
+[2K[1A[2K[G
+[0m
+[0m  [0m[97m[41mTypeError[0m[37m[41m:[0m[37m[41m [0m[97m[41mCannot read properties of undefined (reading 'setParserPlugins')[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mplugin-options.js[0m[90m:[0m[93m68[0m[37m [0m[37menhanceMdxOptions[0m
+[0m  [0m  [0m[90m[simple-portfolio]/[gatsby-plugin-mdx]/dist/plugin-options.js:68:33[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mgatsby-node.js[0m[90m:[0m[93m113[0m[37m [0m[37mObject.preprocessSource[0m
+[0m  [0m  [0m[90m[simple-portfolio]/[gatsby-plugin-mdx]/dist/gatsby-node.js:113:22[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mapi-runner-node.js[0m[90m:[0m[93m509[0m[37m [0m[37mrunAPI[0m
+[0m  [0m  [0m[90m[simple-portfolio]/[gatsby]/src/utils/api-runner-node.js:509:16[0m
+[0m  [0m
+[0m
+
+[2K[1A[2K[G
+ ERROR #11321  API.NODE.EXECUTION
+
+"gatsby-plugin-mdx" threw an error while running the preprocessSource lifecycle:
+
+Cannot read properties of undefined (reading 'setParserPlugins')
+
+  111 |     return undefined;
+  112 |   }
+> 113 |   const mdxOptions = await (0,
+_pluginOptions.enhanceMdxOptions)(pluginOptions, {
+      |                      ^
+  114 |     getNode,
+  115 |     getNodesByType,
+  116 |     pathPrefix,
+
+File: node_modules/gatsby-plugin-mdx/dist/gatsby-node.js:113:22
+
+
+[2K[1A[2K[G
+[0m
+[0m  [0m[97m[41mTypeError[0m[37m[41m:[0m[37m[41m [0m[97m[41mCannot read properties of undefined (reading 'setParserPlugins')[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mplugin-options.js[0m[90m:[0m[93m68[0m[37m [0m[37menhanceMdxOptions[0m
+[0m  [0m  [0m[90m[simple-portfolio]/[gatsby-plugin-mdx]/dist/plugin-options.js:68:33[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mgatsby-node.js[0m[90m:[0m[93m113[0m[37m [0m[37mObject.preprocessSource[0m
+[0m  [0m  [0m[90m[simple-portfolio]/[gatsby-plugin-mdx]/dist/gatsby-node.js:113:22[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mapi-runner-node.js[0m[90m:[0m[93m509[0m[37m [0m[37mrunAPI[0m
+[0m  [0m  [0m[90m[simple-portfolio]/[gatsby]/src/utils/api-runner-node.js:509:16[0m
+[0m  [0m
+[0m
+
+[2K[1A[2K[G
+ ERROR #11321  API.NODE.EXECUTION
+
+"gatsby-plugin-mdx" threw an error while running the preprocessSource lifecycle:
+
+Cannot read properties of undefined (reading 'setParserPlugins')
+
+  111 |     return undefined;
+  112 |   }
+> 113 |   const mdxOptions = await (0,
+_pluginOptions.enhanceMdxOptions)(pluginOptions, {
+      |                      ^
+  114 |     getNode,
+  115 |     getNodesByType,
+  116 |     pathPrefix,
+
+File: node_modules/gatsby-plugin-mdx/dist/gatsby-node.js:113:22
+
+
+[2K[1A[2K[G
+[0m
+[0m  [0m[97m[41mTypeError[0m[37m[41m:[0m[37m[41m [0m[97m[41mCannot read properties of undefined (reading 'setParserPlugins')[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mplugin-options.js[0m[90m:[0m[93m68[0m[37m [0m[37menhanceMdxOptions[0m
+[0m  [0m  [0m[90m[simple-portfolio]/[gatsby-plugin-mdx]/dist/plugin-options.js:68:33[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mgatsby-node.js[0m[90m:[0m[93m113[0m[37m [0m[37mObject.preprocessSource[0m
+[0m  [0m  [0m[90m[simple-portfolio]/[gatsby-plugin-mdx]/dist/gatsby-node.js:113:22[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mapi-runner-node.js[0m[90m:[0m[93m509[0m[37m [0m[37mrunAPI[0m
+[0m  [0m  [0m[90m[simple-portfolio]/[gatsby]/src/utils/api-runner-node.js:509:16[0m
+[0m  [0m
+[0m
+
+[2K[1A[2K[G
+ ERROR #11321  API.NODE.EXECUTION
+
+"gatsby-plugin-mdx" threw an error while running the preprocessSource lifecycle:
+
+Cannot read properties of undefined (reading 'setParserPlugins')
+
+  111 |     return undefined;
+  112 |   }
+> 113 |   const mdxOptions = await (0,
+_pluginOptions.enhanceMdxOptions)(pluginOptions, {
+      |                      ^
+  114 |     getNode,
+  115 |     getNodesByType,
+  116 |     pathPrefix,
+
+File: node_modules/gatsby-plugin-mdx/dist/gatsby-node.js:113:22
+
+
+[2K[1A[2K[G
+[0m
+[0m  [0m[97m[41mTypeError[0m[37m[41m:[0m[37m[41m [0m[97m[41mCannot read properties of undefined (reading 'setParserPlugins')[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mplugin-options.js[0m[90m:[0m[93m68[0m[37m [0m[37menhanceMdxOptions[0m
+[0m  [0m  [0m[90m[simple-portfolio]/[gatsby-plugin-mdx]/dist/plugin-options.js:68:33[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mgatsby-node.js[0m[90m:[0m[93m113[0m[37m [0m[37mObject.preprocessSource[0m
+[0m  [0m  [0m[90m[simple-portfolio]/[gatsby-plugin-mdx]/dist/gatsby-node.js:113:22[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mapi-runner-node.js[0m[90m:[0m[93m509[0m[37m [0m[37mrunAPI[0m
+[0m  [0m  [0m[90m[simple-portfolio]/[gatsby]/src/utils/api-runner-node.js:509:16[0m
+[0m  [0m
+[0m
+
+[2K[1A[2K[G
+ ERROR #11321  API.NODE.EXECUTION
+
+"gatsby-plugin-mdx" threw an error while running the preprocessSource lifecycle:
+
+Cannot read properties of undefined (reading 'setParserPlugins')
+
+  111 |     return undefined;
+  112 |   }
+> 113 |   const mdxOptions = await (0,
+_pluginOptions.enhanceMdxOptions)(pluginOptions, {
+      |                      ^
+  114 |     getNode,
+  115 |     getNodesByType,
+  116 |     pathPrefix,
+
+File: node_modules/gatsby-plugin-mdx/dist/gatsby-node.js:113:22
+
+
+[2K[1A[2K[G
+[0m
+[0m  [0m[97m[41mTypeError[0m[37m[41m:[0m[37m[41m [0m[97m[41mCannot read properties of undefined (reading 'setParserPlugins')[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mplugin-options.js[0m[90m:[0m[93m68[0m[37m [0m[37menhanceMdxOptions[0m
+[0m  [0m  [0m[90m[simple-portfolio]/[gatsby-plugin-mdx]/dist/plugin-options.js:68:33[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mgatsby-node.js[0m[90m:[0m[93m113[0m[37m [0m[37mObject.preprocessSource[0m
+[0m  [0m  [0m[90m[simple-portfolio]/[gatsby-plugin-mdx]/dist/gatsby-node.js:113:22[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mapi-runner-node.js[0m[90m:[0m[93m509[0m[37m [0m[37mrunAPI[0m
+[0m  [0m  [0m[90m[simple-portfolio]/[gatsby]/src/utils/api-runner-node.js:509:16[0m
+[0m  [0m
+[0m
+
+[2K[1A[2K[G
+ ERROR #11321  API.NODE.EXECUTION
+
+"gatsby-plugin-mdx" threw an error while running the preprocessSource lifecycle:
+
+Cannot read properties of undefined (reading 'setParserPlugins')
+
+  111 |     return undefined;
+  112 |   }
+> 113 |   const mdxOptions = await (0,
+_pluginOptions.enhanceMdxOptions)(pluginOptions, {
+      |                      ^
+  114 |     getNode,
+  115 |     getNodesByType,
+  116 |     pathPrefix,
+
+File: node_modules/gatsby-plugin-mdx/dist/gatsby-node.js:113:22
+
+
+[2K[1A[2K[G
+[0m
+[0m  [0m[97m[41mTypeError[0m[37m[41m:[0m[37m[41m [0m[97m[41mCannot read properties of undefined (reading 'setParserPlugins')[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mplugin-options.js[0m[90m:[0m[93m68[0m[37m [0m[37menhanceMdxOptions[0m
+[0m  [0m  [0m[90m[simple-portfolio]/[gatsby-plugin-mdx]/dist/plugin-options.js:68:33[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mgatsby-node.js[0m[90m:[0m[93m113[0m[37m [0m[37mObject.preprocessSource[0m
+[0m  [0m  [0m[90m[simple-portfolio]/[gatsby-plugin-mdx]/dist/gatsby-node.js:113:22[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mapi-runner-node.js[0m[90m:[0m[93m509[0m[37m [0m[37mrunAPI[0m
+[0m  [0m  [0m[90m[simple-portfolio]/[gatsby]/src/utils/api-runner-node.js:509:16[0m
+[0m  [0m
+[0m
+
+[2K[1A[2K[G
+ ERROR #11321  API.NODE.EXECUTION
+
+"gatsby-plugin-mdx" threw an error while running the preprocessSource lifecycle:
+
+Cannot read properties of undefined (reading 'setParserPlugins')
+
+  111 |     return undefined;
+  112 |   }
+> 113 |   const mdxOptions = await (0,
+_pluginOptions.enhanceMdxOptions)(pluginOptions, {
+      |                      ^
+  114 |     getNode,
+  115 |     getNodesByType,
+  116 |     pathPrefix,
+
+File: node_modules/gatsby-plugin-mdx/dist/gatsby-node.js:113:22
+
+
+[2K[1A[2K[G
+[0m
+[0m  [0m[97m[41mTypeError[0m[37m[41m:[0m[37m[41m [0m[97m[41mCannot read properties of undefined (reading 'setParserPlugins')[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mplugin-options.js[0m[90m:[0m[93m68[0m[37m [0m[37menhanceMdxOptions[0m
+[0m  [0m  [0m[90m[simple-portfolio]/[gatsby-plugin-mdx]/dist/plugin-options.js:68:33[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mgatsby-node.js[0m[90m:[0m[93m113[0m[37m [0m[37mObject.preprocessSource[0m
+[0m  [0m  [0m[90m[simple-portfolio]/[gatsby-plugin-mdx]/dist/gatsby-node.js:113:22[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mapi-runner-node.js[0m[90m:[0m[93m509[0m[37m [0m[37mrunAPI[0m
+[0m  [0m  [0m[90m[simple-portfolio]/[gatsby]/src/utils/api-runner-node.js:509:16[0m
+[0m  [0m
+[0m
+
+[2K[1A[2K[G
+ ERROR #11321  API.NODE.EXECUTION
+
+"gatsby-plugin-mdx" threw an error while running the preprocessSource lifecycle:
+
+Cannot read properties of undefined (reading 'setParserPlugins')
+
+  111 |     return undefined;
+  112 |   }
+> 113 |   const mdxOptions = await (0,
+_pluginOptions.enhanceMdxOptions)(pluginOptions, {
+      |                      ^
+  114 |     getNode,
+  115 |     getNodesByType,
+  116 |     pathPrefix,
+
+File: node_modules/gatsby-plugin-mdx/dist/gatsby-node.js:113:22
+
+
+[2K[1A[2K[G
+[0m
+[0m  [0m[97m[41mTypeError[0m[37m[41m:[0m[37m[41m [0m[97m[41mCannot read properties of undefined (reading 'setParserPlugins')[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mplugin-options.js[0m[90m:[0m[93m68[0m[37m [0m[37menhanceMdxOptions[0m
+[0m  [0m  [0m[90m[simple-portfolio]/[gatsby-plugin-mdx]/dist/plugin-options.js:68:33[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mgatsby-node.js[0m[90m:[0m[93m113[0m[37m [0m[37mObject.preprocessSource[0m
+[0m  [0m  [0m[90m[simple-portfolio]/[gatsby-plugin-mdx]/dist/gatsby-node.js:113:22[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mapi-runner-node.js[0m[90m:[0m[93m509[0m[37m [0m[37mrunAPI[0m
+[0m  [0m  [0m[90m[simple-portfolio]/[gatsby]/src/utils/api-runner-node.js:509:16[0m
+[0m  [0m
+[0m
+
+[2K[1A[2K[G
+ ERROR #11321  API.NODE.EXECUTION
+
+"gatsby-plugin-mdx" threw an error while running the preprocessSource lifecycle:
+
+Cannot read properties of undefined (reading 'setParserPlugins')
+
+  111 |     return undefined;
+  112 |   }
+> 113 |   const mdxOptions = await (0,
+_pluginOptions.enhanceMdxOptions)(pluginOptions, {
+      |                      ^
+  114 |     getNode,
+  115 |     getNodesByType,
+  116 |     pathPrefix,
+
+File: node_modules/gatsby-plugin-mdx/dist/gatsby-node.js:113:22
+
+
+[2K[1A[2K[G
+[0m
+[0m  [0m[97m[41mTypeError[0m[37m[41m:[0m[37m[41m [0m[97m[41mCannot read properties of undefined (reading 'setParserPlugins')[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mplugin-options.js[0m[90m:[0m[93m68[0m[37m [0m[37menhanceMdxOptions[0m
+[0m  [0m  [0m[90m[simple-portfolio]/[gatsby-plugin-mdx]/dist/plugin-options.js:68:33[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mgatsby-node.js[0m[90m:[0m[93m113[0m[37m [0m[37mObject.preprocessSource[0m
+[0m  [0m  [0m[90m[simple-portfolio]/[gatsby-plugin-mdx]/dist/gatsby-node.js:113:22[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mapi-runner-node.js[0m[90m:[0m[93m509[0m[37m [0m[37mrunAPI[0m
+[0m  [0m  [0m[90m[simple-portfolio]/[gatsby]/src/utils/api-runner-node.js:509:16[0m
+[0m  [0m
+[0m
+
+[2K[1A[2K[G
+ ERROR #11321  API.NODE.EXECUTION
+
+"gatsby-plugin-mdx" threw an error while running the preprocessSource lifecycle:
+
+Cannot read properties of undefined (reading 'setParserPlugins')
+
+  111 |     return undefined;
+  112 |   }
+> 113 |   const mdxOptions = await (0,
+_pluginOptions.enhanceMdxOptions)(pluginOptions, {
+      |                      ^
+  114 |     getNode,
+  115 |     getNodesByType,
+  116 |     pathPrefix,
+
+File: node_modules/gatsby-plugin-mdx/dist/gatsby-node.js:113:22
+
+
+[2K[1A[2K[G
+[0m
+[0m  [0m[97m[41mTypeError[0m[37m[41m:[0m[37m[41m [0m[97m[41mCannot read properties of undefined (reading 'setParserPlugins')[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mplugin-options.js[0m[90m:[0m[93m68[0m[37m [0m[37menhanceMdxOptions[0m
+[0m  [0m  [0m[90m[simple-portfolio]/[gatsby-plugin-mdx]/dist/plugin-options.js:68:33[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mgatsby-node.js[0m[90m:[0m[93m113[0m[37m [0m[37mObject.preprocessSource[0m
+[0m  [0m  [0m[90m[simple-portfolio]/[gatsby-plugin-mdx]/dist/gatsby-node.js:113:22[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mapi-runner-node.js[0m[90m:[0m[93m509[0m[37m [0m[37mrunAPI[0m
+[0m  [0m  [0m[90m[simple-portfolio]/[gatsby]/src/utils/api-runner-node.js:509:16[0m
+[0m  [0m
+[0m
+
+[2K[1A[2K[G
+ ERROR #11321  API.NODE.EXECUTION
+
+"gatsby-plugin-mdx" threw an error while running the preprocessSource lifecycle:
+
+Cannot read properties of undefined (reading 'setParserPlugins')
+
+  111 |     return undefined;
+  112 |   }
+> 113 |   const mdxOptions = await (0,
+_pluginOptions.enhanceMdxOptions)(pluginOptions, {
+      |                      ^
+  114 |     getNode,
+  115 |     getNodesByType,
+  116 |     pathPrefix,
+
+File: node_modules/gatsby-plugin-mdx/dist/gatsby-node.js:113:22
+
+
+[2K[1A[2K[G
+[0m
+[0m  [0m[97m[41mTypeError[0m[37m[41m:[0m[37m[41m [0m[97m[41mCannot read properties of undefined (reading 'setParserPlugins')[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mplugin-options.js[0m[90m:[0m[93m68[0m[37m [0m[37menhanceMdxOptions[0m
+[0m  [0m  [0m[90m[simple-portfolio]/[gatsby-plugin-mdx]/dist/plugin-options.js:68:33[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mgatsby-node.js[0m[90m:[0m[93m113[0m[37m [0m[37mObject.preprocessSource[0m
+[0m  [0m  [0m[90m[simple-portfolio]/[gatsby-plugin-mdx]/dist/gatsby-node.js:113:22[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mapi-runner-node.js[0m[90m:[0m[93m509[0m[37m [0m[37mrunAPI[0m
+[0m  [0m  [0m[90m[simple-portfolio]/[gatsby]/src/utils/api-runner-node.js:509:16[0m
+[0m  [0m
+[0m
+
+[2K[1A[2K[G
+ ERROR #11321  API.NODE.EXECUTION
+
+"gatsby-plugin-mdx" threw an error while running the preprocessSource lifecycle:
+
+Cannot read properties of undefined (reading 'setParserPlugins')
+
+  111 |     return undefined;
+  112 |   }
+> 113 |   const mdxOptions = await (0,
+_pluginOptions.enhanceMdxOptions)(pluginOptions, {
+      |                      ^
+  114 |     getNode,
+  115 |     getNodesByType,
+  116 |     pathPrefix,
+
+File: node_modules/gatsby-plugin-mdx/dist/gatsby-node.js:113:22
+
+
+[2K[1A[2K[G
+[0m
+[0m  [0m[97m[41mTypeError[0m[37m[41m:[0m[37m[41m [0m[97m[41mCannot read properties of undefined (reading 'setParserPlugins')[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mplugin-options.js[0m[90m:[0m[93m68[0m[37m [0m[37menhanceMdxOptions[0m
+[0m  [0m  [0m[90m[simple-portfolio]/[gatsby-plugin-mdx]/dist/plugin-options.js:68:33[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mgatsby-node.js[0m[90m:[0m[93m113[0m[37m [0m[37mObject.preprocessSource[0m
+[0m  [0m  [0m[90m[simple-portfolio]/[gatsby-plugin-mdx]/dist/gatsby-node.js:113:22[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mapi-runner-node.js[0m[90m:[0m[93m509[0m[37m [0m[37mrunAPI[0m
+[0m  [0m  [0m[90m[simple-portfolio]/[gatsby]/src/utils/api-runner-node.js:509:16[0m
+[0m  [0m
+[0m
+
+[2K[1A[2K[G
+ ERROR #11321  API.NODE.EXECUTION
+
+"gatsby-plugin-mdx" threw an error while running the preprocessSource lifecycle:
+
+Cannot read properties of undefined (reading 'setParserPlugins')
+
+  111 |     return undefined;
+  112 |   }
+> 113 |   const mdxOptions = await (0,
+_pluginOptions.enhanceMdxOptions)(pluginOptions, {
+      |                      ^
+  114 |     getNode,
+  115 |     getNodesByType,
+  116 |     pathPrefix,
+
+File: node_modules/gatsby-plugin-mdx/dist/gatsby-node.js:113:22
+
+
+[2K[1A[2K[G
+[0m
+[0m  [0m[97m[41mTypeError[0m[37m[41m:[0m[37m[41m [0m[97m[41mCannot read properties of undefined (reading 'setParserPlugins')[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mplugin-options.js[0m[90m:[0m[93m68[0m[37m [0m[37menhanceMdxOptions[0m
+[0m  [0m  [0m[90m[simple-portfolio]/[gatsby-plugin-mdx]/dist/plugin-options.js:68:33[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mgatsby-node.js[0m[90m:[0m[93m113[0m[37m [0m[37mObject.preprocessSource[0m
+[0m  [0m  [0m[90m[simple-portfolio]/[gatsby-plugin-mdx]/dist/gatsby-node.js:113:22[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mapi-runner-node.js[0m[90m:[0m[93m509[0m[37m [0m[37mrunAPI[0m
+[0m  [0m  [0m[90m[simple-portfolio]/[gatsby]/src/utils/api-runner-node.js:509:16[0m
+[0m  [0m
+[0m
+
+[2K[1A[2K[G
+ ERROR #11321  API.NODE.EXECUTION
+
+"gatsby-plugin-mdx" threw an error while running the preprocessSource lifecycle:
+
+Cannot read properties of undefined (reading 'setParserPlugins')
+
+  111 |     return undefined;
+  112 |   }
+> 113 |   const mdxOptions = await (0,
+_pluginOptions.enhanceMdxOptions)(pluginOptions, {
+      |                      ^
+  114 |     getNode,
+  115 |     getNodesByType,
+  116 |     pathPrefix,
+
+File: node_modules/gatsby-plugin-mdx/dist/gatsby-node.js:113:22
+
+
+[2K[1A[2K[G
+[0m
+[0m  [0m[97m[41mTypeError[0m[37m[41m:[0m[37m[41m [0m[97m[41mCannot read properties of undefined (reading 'setParserPlugins')[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mplugin-options.js[0m[90m:[0m[93m68[0m[37m [0m[37menhanceMdxOptions[0m
+[0m  [0m  [0m[90m[simple-portfolio]/[gatsby-plugin-mdx]/dist/plugin-options.js:68:33[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mgatsby-node.js[0m[90m:[0m[93m113[0m[37m [0m[37mObject.preprocessSource[0m
+[0m  [0m  [0m[90m[simple-portfolio]/[gatsby-plugin-mdx]/dist/gatsby-node.js:113:22[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mapi-runner-node.js[0m[90m:[0m[93m509[0m[37m [0m[37mrunAPI[0m
+[0m  [0m  [0m[90m[simple-portfolio]/[gatsby]/src/utils/api-runner-node.js:509:16[0m
+[0m  [0m
+[0m
+
+[2K[1A[2K[G
+ ERROR #11321  API.NODE.EXECUTION
+
+"gatsby-plugin-mdx" threw an error while running the preprocessSource lifecycle:
+
+Cannot read properties of undefined (reading 'setParserPlugins')
+
+  111 |     return undefined;
+  112 |   }
+> 113 |   const mdxOptions = await (0,
+_pluginOptions.enhanceMdxOptions)(pluginOptions, {
+      |                      ^
+  114 |     getNode,
+  115 |     getNodesByType,
+  116 |     pathPrefix,
+
+File: node_modules/gatsby-plugin-mdx/dist/gatsby-node.js:113:22
+
+
+[2K[1A[2K[G
+[0m
+[0m  [0m[97m[41mTypeError[0m[37m[41m:[0m[37m[41m [0m[97m[41mCannot read properties of undefined (reading 'setParserPlugins')[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mplugin-options.js[0m[90m:[0m[93m68[0m[37m [0m[37menhanceMdxOptions[0m
+[0m  [0m  [0m[90m[simple-portfolio]/[gatsby-plugin-mdx]/dist/plugin-options.js:68:33[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mgatsby-node.js[0m[90m:[0m[93m113[0m[37m [0m[37mObject.preprocessSource[0m
+[0m  [0m  [0m[90m[simple-portfolio]/[gatsby-plugin-mdx]/dist/gatsby-node.js:113:22[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mapi-runner-node.js[0m[90m:[0m[93m509[0m[37m [0m[37mrunAPI[0m
+[0m  [0m  [0m[90m[simple-portfolio]/[gatsby]/src/utils/api-runner-node.js:509:16[0m
+[0m  [0m
+[0m
+
+[2K[1A[2K[G
+ ERROR #11321  API.NODE.EXECUTION
+
+"gatsby-plugin-mdx" threw an error while running the preprocessSource lifecycle:
+
+Cannot read properties of undefined (reading 'setParserPlugins')
+
+  111 |     return undefined;
+  112 |   }
+> 113 |   const mdxOptions = await (0,
+_pluginOptions.enhanceMdxOptions)(pluginOptions, {
+      |                      ^
+  114 |     getNode,
+  115 |     getNodesByType,
+  116 |     pathPrefix,
+
+File: node_modules/gatsby-plugin-mdx/dist/gatsby-node.js:113:22
+
+
+[2K[1A[2K[G
+[0m
+[0m  [0m[97m[41mTypeError[0m[37m[41m:[0m[37m[41m [0m[97m[41mCannot read properties of undefined (reading 'setParserPlugins')[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mplugin-options.js[0m[90m:[0m[93m68[0m[37m [0m[37menhanceMdxOptions[0m
+[0m  [0m  [0m[90m[simple-portfolio]/[gatsby-plugin-mdx]/dist/plugin-options.js:68:33[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mgatsby-node.js[0m[90m:[0m[93m113[0m[37m [0m[37mObject.preprocessSource[0m
+[0m  [0m  [0m[90m[simple-portfolio]/[gatsby-plugin-mdx]/dist/gatsby-node.js:113:22[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mapi-runner-node.js[0m[90m:[0m[93m509[0m[37m [0m[37mrunAPI[0m
+[0m  [0m  [0m[90m[simple-portfolio]/[gatsby]/src/utils/api-runner-node.js:509:16[0m
+[0m  [0m
+[0m
+
+[2K[1A[2K[G
+ ERROR #11321  API.NODE.EXECUTION
+
+"gatsby-plugin-mdx" threw an error while running the preprocessSource lifecycle:
+
+Cannot read properties of undefined (reading 'setParserPlugins')
+
+  111 |     return undefined;
+  112 |   }
+> 113 |   const mdxOptions = await (0,
+_pluginOptions.enhanceMdxOptions)(pluginOptions, {
+      |                      ^
+  114 |     getNode,
+  115 |     getNodesByType,
+  116 |     pathPrefix,
+
+File: node_modules/gatsby-plugin-mdx/dist/gatsby-node.js:113:22
+
+
+[2K[1A[2K[G
+[0m
+[0m  [0m[97m[41mTypeError[0m[37m[41m:[0m[37m[41m [0m[97m[41mCannot read properties of undefined (reading 'setParserPlugins')[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mplugin-options.js[0m[90m:[0m[93m68[0m[37m [0m[37menhanceMdxOptions[0m
+[0m  [0m  [0m[90m[simple-portfolio]/[gatsby-plugin-mdx]/dist/plugin-options.js:68:33[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mgatsby-node.js[0m[90m:[0m[93m113[0m[37m [0m[37mObject.preprocessSource[0m
+[0m  [0m  [0m[90m[simple-portfolio]/[gatsby-plugin-mdx]/dist/gatsby-node.js:113:22[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mapi-runner-node.js[0m[90m:[0m[93m509[0m[37m [0m[37mrunAPI[0m
+[0m  [0m  [0m[90m[simple-portfolio]/[gatsby]/src/utils/api-runner-node.js:509:16[0m
+[0m  [0m
+[0m
+
+[2K[1A[2K[G
+ ERROR #11321  API.NODE.EXECUTION
+
+"gatsby-plugin-mdx" threw an error while running the preprocessSource lifecycle:
+
+Cannot read properties of undefined (reading 'setParserPlugins')
+
+  111 |     return undefined;
+  112 |   }
+> 113 |   const mdxOptions = await (0,
+_pluginOptions.enhanceMdxOptions)(pluginOptions, {
+      |                      ^
+  114 |     getNode,
+  115 |     getNodesByType,
+  116 |     pathPrefix,
+
+File: node_modules/gatsby-plugin-mdx/dist/gatsby-node.js:113:22
+
+
+[2K[1A[2K[G
+[0m
+[0m  [0m[97m[41mTypeError[0m[37m[41m:[0m[37m[41m [0m[97m[41mCannot read properties of undefined (reading 'setParserPlugins')[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mplugin-options.js[0m[90m:[0m[93m68[0m[37m [0m[37menhanceMdxOptions[0m
+[0m  [0m  [0m[90m[simple-portfolio]/[gatsby-plugin-mdx]/dist/plugin-options.js:68:33[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mgatsby-node.js[0m[90m:[0m[93m113[0m[37m [0m[37mObject.preprocessSource[0m
+[0m  [0m  [0m[90m[simple-portfolio]/[gatsby-plugin-mdx]/dist/gatsby-node.js:113:22[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mapi-runner-node.js[0m[90m:[0m[93m509[0m[37m [0m[37mrunAPI[0m
+[0m  [0m  [0m[90m[simple-portfolio]/[gatsby]/src/utils/api-runner-node.js:509:16[0m
+[0m  [0m
+[0m
+
+[2K[1A[2K[G
+ ERROR #11321  API.NODE.EXECUTION
+
+"gatsby-plugin-mdx" threw an error while running the preprocessSource lifecycle:
+
+Cannot read properties of undefined (reading 'setParserPlugins')
+
+  111 |     return undefined;
+  112 |   }
+> 113 |   const mdxOptions = await (0,
+_pluginOptions.enhanceMdxOptions)(pluginOptions, {
+      |                      ^
+  114 |     getNode,
+  115 |     getNodesByType,
+  116 |     pathPrefix,
+
+File: node_modules/gatsby-plugin-mdx/dist/gatsby-node.js:113:22
+
+
+[2K[1A[2K[G
+[0m
+[0m  [0m[97m[41mTypeError[0m[37m[41m:[0m[37m[41m [0m[97m[41mCannot read properties of undefined (reading 'setParserPlugins')[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mplugin-options.js[0m[90m:[0m[93m68[0m[37m [0m[37menhanceMdxOptions[0m
+[0m  [0m  [0m[90m[simple-portfolio]/[gatsby-plugin-mdx]/dist/plugin-options.js:68:33[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mgatsby-node.js[0m[90m:[0m[93m113[0m[37m [0m[37mObject.preprocessSource[0m
+[0m  [0m  [0m[90m[simple-portfolio]/[gatsby-plugin-mdx]/dist/gatsby-node.js:113:22[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mapi-runner-node.js[0m[90m:[0m[93m509[0m[37m [0m[37mrunAPI[0m
+[0m  [0m  [0m[90m[simple-portfolio]/[gatsby]/src/utils/api-runner-node.js:509:16[0m
+[0m  [0m
+[0m
+
+[2K[1A[2K[G
+ ERROR #11321  API.NODE.EXECUTION
+
+"gatsby-plugin-mdx" threw an error while running the preprocessSource lifecycle:
+
+Cannot read properties of undefined (reading 'setParserPlugins')
+
+  111 |     return undefined;
+  112 |   }
+> 113 |   const mdxOptions = await (0,
+_pluginOptions.enhanceMdxOptions)(pluginOptions, {
+      |                      ^
+  114 |     getNode,
+  115 |     getNodesByType,
+  116 |     pathPrefix,
+
+File: node_modules/gatsby-plugin-mdx/dist/gatsby-node.js:113:22
+
+
+[2K[1A[2K[G
+[0m
+[0m  [0m[97m[41mTypeError[0m[37m[41m:[0m[37m[41m [0m[97m[41mCannot read properties of undefined (reading 'setParserPlugins')[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mplugin-options.js[0m[90m:[0m[93m68[0m[37m [0m[37menhanceMdxOptions[0m
+[0m  [0m  [0m[90m[simple-portfolio]/[gatsby-plugin-mdx]/dist/plugin-options.js:68:33[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mgatsby-node.js[0m[90m:[0m[93m113[0m[37m [0m[37mObject.preprocessSource[0m
+[0m  [0m  [0m[90m[simple-portfolio]/[gatsby-plugin-mdx]/dist/gatsby-node.js:113:22[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mapi-runner-node.js[0m[90m:[0m[93m509[0m[37m [0m[37mrunAPI[0m
+[0m  [0m  [0m[90m[simple-portfolio]/[gatsby]/src/utils/api-runner-node.js:509:16[0m
+[0m  [0m
+[0m
+
+[2K[1A[2K[G
+ ERROR #11321  API.NODE.EXECUTION
+
+"gatsby-plugin-mdx" threw an error while running the preprocessSource lifecycle:
+
+Cannot read properties of undefined (reading 'setParserPlugins')
+
+  111 |     return undefined;
+  112 |   }
+> 113 |   const mdxOptions = await (0,
+_pluginOptions.enhanceMdxOptions)(pluginOptions, {
+      |                      ^
+  114 |     getNode,
+  115 |     getNodesByType,
+  116 |     pathPrefix,
+
+File: node_modules/gatsby-plugin-mdx/dist/gatsby-node.js:113:22
+
+
+[2K[1A[2K[G
+[0m
+[0m  [0m[97m[41mTypeError[0m[37m[41m:[0m[37m[41m [0m[97m[41mCannot read properties of undefined (reading 'setParserPlugins')[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mplugin-options.js[0m[90m:[0m[93m68[0m[37m [0m[37menhanceMdxOptions[0m
+[0m  [0m  [0m[90m[simple-portfolio]/[gatsby-plugin-mdx]/dist/plugin-options.js:68:33[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mgatsby-node.js[0m[90m:[0m[93m113[0m[37m [0m[37mObject.preprocessSource[0m
+[0m  [0m  [0m[90m[simple-portfolio]/[gatsby-plugin-mdx]/dist/gatsby-node.js:113:22[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mapi-runner-node.js[0m[90m:[0m[93m509[0m[37m [0m[37mrunAPI[0m
+[0m  [0m  [0m[90m[simple-portfolio]/[gatsby]/src/utils/api-runner-node.js:509:16[0m
+[0m  [0m
+[0m
+
+[2K[1A[2K[G
+ ERROR #11321  API.NODE.EXECUTION
+
+"gatsby-plugin-mdx" threw an error while running the preprocessSource lifecycle:
+
+Cannot read properties of undefined (reading 'setParserPlugins')
+
+  111 |     return undefined;
+  112 |   }
+> 113 |   const mdxOptions = await (0,
+_pluginOptions.enhanceMdxOptions)(pluginOptions, {
+      |                      ^
+  114 |     getNode,
+  115 |     getNodesByType,
+  116 |     pathPrefix,
+
+File: node_modules/gatsby-plugin-mdx/dist/gatsby-node.js:113:22
+
+
+[2K[1A[2K[G
+[0m
+[0m  [0m[97m[41mTypeError[0m[37m[41m:[0m[37m[41m [0m[97m[41mCannot read properties of undefined (reading 'setParserPlugins')[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mplugin-options.js[0m[90m:[0m[93m68[0m[37m [0m[37menhanceMdxOptions[0m
+[0m  [0m  [0m[90m[simple-portfolio]/[gatsby-plugin-mdx]/dist/plugin-options.js:68:33[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mgatsby-node.js[0m[90m:[0m[93m113[0m[37m [0m[37mObject.preprocessSource[0m
+[0m  [0m  [0m[90m[simple-portfolio]/[gatsby-plugin-mdx]/dist/gatsby-node.js:113:22[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mapi-runner-node.js[0m[90m:[0m[93m509[0m[37m [0m[37mrunAPI[0m
+[0m  [0m  [0m[90m[simple-portfolio]/[gatsby]/src/utils/api-runner-node.js:509:16[0m
+[0m  [0m
+[0m
+
+[2K[1A[2K[G
+ ERROR #11321  API.NODE.EXECUTION
+
+"gatsby-plugin-mdx" threw an error while running the preprocessSource lifecycle:
+
+Cannot read properties of undefined (reading 'setParserPlugins')
+
+  111 |     return undefined;
+  112 |   }
+> 113 |   const mdxOptions = await (0,
+_pluginOptions.enhanceMdxOptions)(pluginOptions, {
+      |                      ^
+  114 |     getNode,
+  115 |     getNodesByType,
+  116 |     pathPrefix,
+
+File: node_modules/gatsby-plugin-mdx/dist/gatsby-node.js:113:22
+
+
+[2K[1A[2K[G
+[0m
+[0m  [0m[97m[41mTypeError[0m[37m[41m:[0m[37m[41m [0m[97m[41mCannot read properties of undefined (reading 'setParserPlugins')[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mplugin-options.js[0m[90m:[0m[93m68[0m[37m [0m[37menhanceMdxOptions[0m
+[0m  [0m  [0m[90m[simple-portfolio]/[gatsby-plugin-mdx]/dist/plugin-options.js:68:33[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mgatsby-node.js[0m[90m:[0m[93m113[0m[37m [0m[37mObject.preprocessSource[0m
+[0m  [0m  [0m[90m[simple-portfolio]/[gatsby-plugin-mdx]/dist/gatsby-node.js:113:22[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mapi-runner-node.js[0m[90m:[0m[93m509[0m[37m [0m[37mrunAPI[0m
+[0m  [0m  [0m[90m[simple-portfolio]/[gatsby]/src/utils/api-runner-node.js:509:16[0m
+[0m  [0m
+[0m
+
+[2K[1A[2K[G
+ ERROR #11321  API.NODE.EXECUTION
+
+"gatsby-plugin-mdx" threw an error while running the preprocessSource lifecycle:
+
+Cannot read properties of undefined (reading 'setParserPlugins')
+
+  111 |     return undefined;
+  112 |   }
+> 113 |   const mdxOptions = await (0,
+_pluginOptions.enhanceMdxOptions)(pluginOptions, {
+      |                      ^
+  114 |     getNode,
+  115 |     getNodesByType,
+  116 |     pathPrefix,
+
+File: node_modules/gatsby-plugin-mdx/dist/gatsby-node.js:113:22
+
+
+[2K[1A[2K[G
+[0m
+[0m  [0m[97m[41mTypeError[0m[37m[41m:[0m[37m[41m [0m[97m[41mCannot read properties of undefined (reading 'setParserPlugins')[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mplugin-options.js[0m[90m:[0m[93m68[0m[37m [0m[37menhanceMdxOptions[0m
+[0m  [0m  [0m[90m[simple-portfolio]/[gatsby-plugin-mdx]/dist/plugin-options.js:68:33[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mgatsby-node.js[0m[90m:[0m[93m113[0m[37m [0m[37mObject.preprocessSource[0m
+[0m  [0m  [0m[90m[simple-portfolio]/[gatsby-plugin-mdx]/dist/gatsby-node.js:113:22[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mapi-runner-node.js[0m[90m:[0m[93m509[0m[37m [0m[37mrunAPI[0m
+[0m  [0m  [0m[90m[simple-portfolio]/[gatsby]/src/utils/api-runner-node.js:509:16[0m
+[0m  [0m
+[0m
+
+[2K[1A[2K[G
+ ERROR #11321  API.NODE.EXECUTION
+
+"gatsby-plugin-mdx" threw an error while running the preprocessSource lifecycle:
+
+Cannot read properties of undefined (reading 'setParserPlugins')
+
+  111 |     return undefined;
+  112 |   }
+> 113 |   const mdxOptions = await (0,
+_pluginOptions.enhanceMdxOptions)(pluginOptions, {
+      |                      ^
+  114 |     getNode,
+  115 |     getNodesByType,
+  116 |     pathPrefix,
+
+File: node_modules/gatsby-plugin-mdx/dist/gatsby-node.js:113:22
+
+
+[2K[1A[2K[G
+[0m
+[0m  [0m[97m[41mTypeError[0m[37m[41m:[0m[37m[41m [0m[97m[41mCannot read properties of undefined (reading 'setParserPlugins')[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mplugin-options.js[0m[90m:[0m[93m68[0m[37m [0m[37menhanceMdxOptions[0m
+[0m  [0m  [0m[90m[simple-portfolio]/[gatsby-plugin-mdx]/dist/plugin-options.js:68:33[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mgatsby-node.js[0m[90m:[0m[93m113[0m[37m [0m[37mObject.preprocessSource[0m
+[0m  [0m  [0m[90m[simple-portfolio]/[gatsby-plugin-mdx]/dist/gatsby-node.js:113:22[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mapi-runner-node.js[0m[90m:[0m[93m509[0m[37m [0m[37mrunAPI[0m
+[0m  [0m  [0m[90m[simple-portfolio]/[gatsby]/src/utils/api-runner-node.js:509:16[0m
+[0m  [0m
+[0m
+
+[2K[1A[2K[G
+ ERROR #11321  API.NODE.EXECUTION
+
+"gatsby-plugin-mdx" threw an error while running the preprocessSource lifecycle:
+
+Cannot read properties of undefined (reading 'setParserPlugins')
+
+  111 |     return undefined;
+  112 |   }
+> 113 |   const mdxOptions = await (0,
+_pluginOptions.enhanceMdxOptions)(pluginOptions, {
+      |                      ^
+  114 |     getNode,
+  115 |     getNodesByType,
+  116 |     pathPrefix,
+
+File: node_modules/gatsby-plugin-mdx/dist/gatsby-node.js:113:22
+
+
+[2K[1A[2K[G
+[0m
+[0m  [0m[97m[41mTypeError[0m[37m[41m:[0m[37m[41m [0m[97m[41mCannot read properties of undefined (reading 'setParserPlugins')[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mplugin-options.js[0m[90m:[0m[93m68[0m[37m [0m[37menhanceMdxOptions[0m
+[0m  [0m  [0m[90m[simple-portfolio]/[gatsby-plugin-mdx]/dist/plugin-options.js:68:33[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mgatsby-node.js[0m[90m:[0m[93m113[0m[37m [0m[37mObject.preprocessSource[0m
+[0m  [0m  [0m[90m[simple-portfolio]/[gatsby-plugin-mdx]/dist/gatsby-node.js:113:22[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mapi-runner-node.js[0m[90m:[0m[93m509[0m[37m [0m[37mrunAPI[0m
+[0m  [0m  [0m[90m[simple-portfolio]/[gatsby]/src/utils/api-runner-node.js:509:16[0m
+[0m  [0m
+[0m
+
+[2K[1A[2K[G
+ ERROR #11321  API.NODE.EXECUTION
+
+"gatsby-plugin-mdx" threw an error while running the preprocessSource lifecycle:
+
+Cannot read properties of undefined (reading 'setParserPlugins')
+
+  111 |     return undefined;
+  112 |   }
+> 113 |   const mdxOptions = await (0,
+_pluginOptions.enhanceMdxOptions)(pluginOptions, {
+      |                      ^
+  114 |     getNode,
+  115 |     getNodesByType,
+  116 |     pathPrefix,
+
+File: node_modules/gatsby-plugin-mdx/dist/gatsby-node.js:113:22
+
+
+[2K[1A[2K[G
+[0m
+[0m  [0m[97m[41mTypeError[0m[37m[41m:[0m[37m[41m [0m[97m[41mCannot read properties of undefined (reading 'setParserPlugins')[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mplugin-options.js[0m[90m:[0m[93m68[0m[37m [0m[37menhanceMdxOptions[0m
+[0m  [0m  [0m[90m[simple-portfolio]/[gatsby-plugin-mdx]/dist/plugin-options.js:68:33[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mgatsby-node.js[0m[90m:[0m[93m113[0m[37m [0m[37mObject.preprocessSource[0m
+[0m  [0m  [0m[90m[simple-portfolio]/[gatsby-plugin-mdx]/dist/gatsby-node.js:113:22[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mapi-runner-node.js[0m[90m:[0m[93m509[0m[37m [0m[37mrunAPI[0m
+[0m  [0m  [0m[90m[simple-portfolio]/[gatsby]/src/utils/api-runner-node.js:509:16[0m
+[0m  [0m
+[0m
+
+[2K[1A[2K[G
+ ERROR #11321  API.NODE.EXECUTION
+
+"gatsby-plugin-mdx" threw an error while running the preprocessSource lifecycle:
+
+Cannot read properties of undefined (reading 'setParserPlugins')
+
+  111 |     return undefined;
+  112 |   }
+> 113 |   const mdxOptions = await (0,
+_pluginOptions.enhanceMdxOptions)(pluginOptions, {
+      |                      ^
+  114 |     getNode,
+  115 |     getNodesByType,
+  116 |     pathPrefix,
+
+File: node_modules/gatsby-plugin-mdx/dist/gatsby-node.js:113:22
+
+
+[2K[1A[2K[G
+[0m
+[0m  [0m[97m[41mTypeError[0m[37m[41m:[0m[37m[41m [0m[97m[41mCannot read properties of undefined (reading 'setParserPlugins')[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mplugin-options.js[0m[90m:[0m[93m68[0m[37m [0m[37menhanceMdxOptions[0m
+[0m  [0m  [0m[90m[simple-portfolio]/[gatsby-plugin-mdx]/dist/plugin-options.js:68:33[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mgatsby-node.js[0m[90m:[0m[93m113[0m[37m [0m[37mObject.preprocessSource[0m
+[0m  [0m  [0m[90m[simple-portfolio]/[gatsby-plugin-mdx]/dist/gatsby-node.js:113:22[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mapi-runner-node.js[0m[90m:[0m[93m509[0m[37m [0m[37mrunAPI[0m
+[0m  [0m  [0m[90m[simple-portfolio]/[gatsby]/src/utils/api-runner-node.js:509:16[0m
+[0m  [0m
+[0m
+
+[2K[1A[2K[G
+ ERROR #11321  API.NODE.EXECUTION
+
+"gatsby-plugin-mdx" threw an error while running the preprocessSource lifecycle:
+
+Cannot read properties of undefined (reading 'setParserPlugins')
+
+  111 |     return undefined;
+  112 |   }
+> 113 |   const mdxOptions = await (0,
+_pluginOptions.enhanceMdxOptions)(pluginOptions, {
+      |                      ^
+  114 |     getNode,
+  115 |     getNodesByType,
+  116 |     pathPrefix,
+
+File: node_modules/gatsby-plugin-mdx/dist/gatsby-node.js:113:22
+
+
+[2K[1A[2K[G
+[0m
+[0m  [0m[97m[41mTypeError[0m[37m[41m:[0m[37m[41m [0m[97m[41mCannot read properties of undefined (reading 'setParserPlugins')[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mplugin-options.js[0m[90m:[0m[93m68[0m[37m [0m[37menhanceMdxOptions[0m
+[0m  [0m  [0m[90m[simple-portfolio]/[gatsby-plugin-mdx]/dist/plugin-options.js:68:33[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mgatsby-node.js[0m[90m:[0m[93m113[0m[37m [0m[37mObject.preprocessSource[0m
+[0m  [0m  [0m[90m[simple-portfolio]/[gatsby-plugin-mdx]/dist/gatsby-node.js:113:22[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mapi-runner-node.js[0m[90m:[0m[93m509[0m[37m [0m[37mrunAPI[0m
+[0m  [0m  [0m[90m[simple-portfolio]/[gatsby]/src/utils/api-runner-node.js:509:16[0m
+[0m  [0m
+[0m
+
+[2K[1A[2K[G
+ ERROR #11321  API.NODE.EXECUTION
+
+"gatsby-plugin-mdx" threw an error while running the preprocessSource lifecycle:
+
+Cannot read properties of undefined (reading 'setParserPlugins')
+
+  111 |     return undefined;
+  112 |   }
+> 113 |   const mdxOptions = await (0,
+_pluginOptions.enhanceMdxOptions)(pluginOptions, {
+      |                      ^
+  114 |     getNode,
+  115 |     getNodesByType,
+  116 |     pathPrefix,
+
+File: node_modules/gatsby-plugin-mdx/dist/gatsby-node.js:113:22
+
+
+[2K[1A[2K[G
+[0m
+[0m  [0m[97m[41mTypeError[0m[37m[41m:[0m[37m[41m [0m[97m[41mCannot read properties of undefined (reading 'setParserPlugins')[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mplugin-options.js[0m[90m:[0m[93m68[0m[37m [0m[37menhanceMdxOptions[0m
+[0m  [0m  [0m[90m[simple-portfolio]/[gatsby-plugin-mdx]/dist/plugin-options.js:68:33[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mgatsby-node.js[0m[90m:[0m[93m113[0m[37m [0m[37mObject.preprocessSource[0m
+[0m  [0m  [0m[90m[simple-portfolio]/[gatsby-plugin-mdx]/dist/gatsby-node.js:113:22[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mapi-runner-node.js[0m[90m:[0m[93m509[0m[37m [0m[37mrunAPI[0m
+[0m  [0m  [0m[90m[simple-portfolio]/[gatsby]/src/utils/api-runner-node.js:509:16[0m
+[0m  [0m
+[0m
+
+[2K[1A[2K[G
+ ERROR #11321  API.NODE.EXECUTION
+
+"gatsby-plugin-mdx" threw an error while running the preprocessSource lifecycle:
+
+Cannot read properties of undefined (reading 'setParserPlugins')
+
+  111 |     return undefined;
+  112 |   }
+> 113 |   const mdxOptions = await (0,
+_pluginOptions.enhanceMdxOptions)(pluginOptions, {
+      |                      ^
+  114 |     getNode,
+  115 |     getNodesByType,
+  116 |     pathPrefix,
+
+File: node_modules/gatsby-plugin-mdx/dist/gatsby-node.js:113:22
+
+
+[2K[1A[2K[G
+[0m
+[0m  [0m[97m[41mTypeError[0m[37m[41m:[0m[37m[41m [0m[97m[41mCannot read properties of undefined (reading 'setParserPlugins')[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mplugin-options.js[0m[90m:[0m[93m68[0m[37m [0m[37menhanceMdxOptions[0m
+[0m  [0m  [0m[90m[simple-portfolio]/[gatsby-plugin-mdx]/dist/plugin-options.js:68:33[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mgatsby-node.js[0m[90m:[0m[93m113[0m[37m [0m[37mObject.preprocessSource[0m
+[0m  [0m  [0m[90m[simple-portfolio]/[gatsby-plugin-mdx]/dist/gatsby-node.js:113:22[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mapi-runner-node.js[0m[90m:[0m[93m509[0m[37m [0m[37mrunAPI[0m
+[0m  [0m  [0m[90m[simple-portfolio]/[gatsby]/src/utils/api-runner-node.js:509:16[0m
+[0m  [0m
+[0m
+
+[2K[1A[2K[G
+ ERROR #11321  API.NODE.EXECUTION
+
+"gatsby-plugin-mdx" threw an error while running the preprocessSource lifecycle:
+
+Cannot read properties of undefined (reading 'setParserPlugins')
+
+  111 |     return undefined;
+  112 |   }
+> 113 |   const mdxOptions = await (0,
+_pluginOptions.enhanceMdxOptions)(pluginOptions, {
+      |                      ^
+  114 |     getNode,
+  115 |     getNodesByType,
+  116 |     pathPrefix,
+
+File: node_modules/gatsby-plugin-mdx/dist/gatsby-node.js:113:22
+
+
+[2K[1A[2K[G
+[0m
+[0m  [0m[97m[41mTypeError[0m[37m[41m:[0m[37m[41m [0m[97m[41mCannot read properties of undefined (reading 'setParserPlugins')[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mplugin-options.js[0m[90m:[0m[93m68[0m[37m [0m[37menhanceMdxOptions[0m
+[0m  [0m  [0m[90m[simple-portfolio]/[gatsby-plugin-mdx]/dist/plugin-options.js:68:33[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mgatsby-node.js[0m[90m:[0m[93m113[0m[37m [0m[37mObject.preprocessSource[0m
+[0m  [0m  [0m[90m[simple-portfolio]/[gatsby-plugin-mdx]/dist/gatsby-node.js:113:22[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mapi-runner-node.js[0m[90m:[0m[93m509[0m[37m [0m[37mrunAPI[0m
+[0m  [0m  [0m[90m[simple-portfolio]/[gatsby]/src/utils/api-runner-node.js:509:16[0m
+[0m  [0m
+[0m
+
+[2K[1A[2K[G
+ ERROR #11321  API.NODE.EXECUTION
+
+"gatsby-plugin-mdx" threw an error while running the preprocessSource lifecycle:
+
+Cannot read properties of undefined (reading 'setParserPlugins')
+
+  111 |     return undefined;
+  112 |   }
+> 113 |   const mdxOptions = await (0,
+_pluginOptions.enhanceMdxOptions)(pluginOptions, {
+      |                      ^
+  114 |     getNode,
+  115 |     getNodesByType,
+  116 |     pathPrefix,
+
+File: node_modules/gatsby-plugin-mdx/dist/gatsby-node.js:113:22
+
+
+[2K[1A[2K[G
+[0m
+[0m  [0m[97m[41mTypeError[0m[37m[41m:[0m[37m[41m [0m[97m[41mCannot read properties of undefined (reading 'setParserPlugins')[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mplugin-options.js[0m[90m:[0m[93m68[0m[37m [0m[37menhanceMdxOptions[0m
+[0m  [0m  [0m[90m[simple-portfolio]/[gatsby-plugin-mdx]/dist/plugin-options.js:68:33[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mgatsby-node.js[0m[90m:[0m[93m113[0m[37m [0m[37mObject.preprocessSource[0m
+[0m  [0m  [0m[90m[simple-portfolio]/[gatsby-plugin-mdx]/dist/gatsby-node.js:113:22[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mapi-runner-node.js[0m[90m:[0m[93m509[0m[37m [0m[37mrunAPI[0m
+[0m  [0m  [0m[90m[simple-portfolio]/[gatsby]/src/utils/api-runner-node.js:509:16[0m
+[0m  [0m
+[0m
+
+[2K[1A[2K[G
+ ERROR #11321  API.NODE.EXECUTION
+
+"gatsby-plugin-mdx" threw an error while running the preprocessSource lifecycle:
+
+Cannot read properties of undefined (reading 'setParserPlugins')
+
+  111 |     return undefined;
+  112 |   }
+> 113 |   const mdxOptions = await (0,
+_pluginOptions.enhanceMdxOptions)(pluginOptions, {
+      |                      ^
+  114 |     getNode,
+  115 |     getNodesByType,
+  116 |     pathPrefix,
+
+File: node_modules/gatsby-plugin-mdx/dist/gatsby-node.js:113:22
+
+
+[2K[1A[2K[G
+[0m
+[0m  [0m[97m[41mTypeError[0m[37m[41m:[0m[37m[41m [0m[97m[41mCannot read properties of undefined (reading 'setParserPlugins')[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mplugin-options.js[0m[90m:[0m[93m68[0m[37m [0m[37menhanceMdxOptions[0m
+[0m  [0m  [0m[90m[simple-portfolio]/[gatsby-plugin-mdx]/dist/plugin-options.js:68:33[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mgatsby-node.js[0m[90m:[0m[93m113[0m[37m [0m[37mObject.preprocessSource[0m
+[0m  [0m  [0m[90m[simple-portfolio]/[gatsby-plugin-mdx]/dist/gatsby-node.js:113:22[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mapi-runner-node.js[0m[90m:[0m[93m509[0m[37m [0m[37mrunAPI[0m
+[0m  [0m  [0m[90m[simple-portfolio]/[gatsby]/src/utils/api-runner-node.js:509:16[0m
+[0m  [0m
+[0m
+
+[2K[1A[2K[G
+ ERROR #11321  API.NODE.EXECUTION
+
+"gatsby-plugin-mdx" threw an error while running the preprocessSource lifecycle:
+
+Cannot read properties of undefined (reading 'setParserPlugins')
+
+  111 |     return undefined;
+  112 |   }
+> 113 |   const mdxOptions = await (0,
+_pluginOptions.enhanceMdxOptions)(pluginOptions, {
+      |                      ^
+  114 |     getNode,
+  115 |     getNodesByType,
+  116 |     pathPrefix,
+
+File: node_modules/gatsby-plugin-mdx/dist/gatsby-node.js:113:22
+
+
+[2K[1A[2K[G
+[0m
+[0m  [0m[97m[41mTypeError[0m[37m[41m:[0m[37m[41m [0m[97m[41mCannot read properties of undefined (reading 'setParserPlugins')[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mplugin-options.js[0m[90m:[0m[93m68[0m[37m [0m[37menhanceMdxOptions[0m
+[0m  [0m  [0m[90m[simple-portfolio]/[gatsby-plugin-mdx]/dist/plugin-options.js:68:33[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mgatsby-node.js[0m[90m:[0m[93m113[0m[37m [0m[37mObject.preprocessSource[0m
+[0m  [0m  [0m[90m[simple-portfolio]/[gatsby-plugin-mdx]/dist/gatsby-node.js:113:22[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mapi-runner-node.js[0m[90m:[0m[93m509[0m[37m [0m[37mrunAPI[0m
+[0m  [0m  [0m[90m[simple-portfolio]/[gatsby]/src/utils/api-runner-node.js:509:16[0m
+[0m  [0m
+[0m
+
+[2K[1A[2K[G
+ ERROR #11321  API.NODE.EXECUTION
+
+"gatsby-plugin-mdx" threw an error while running the preprocessSource lifecycle:
+
+Cannot read properties of undefined (reading 'setParserPlugins')
+
+  111 |     return undefined;
+  112 |   }
+> 113 |   const mdxOptions = await (0,
+_pluginOptions.enhanceMdxOptions)(pluginOptions, {
+      |                      ^
+  114 |     getNode,
+  115 |     getNodesByType,
+  116 |     pathPrefix,
+
+File: node_modules/gatsby-plugin-mdx/dist/gatsby-node.js:113:22
+
+
+[2K[1A[2K[G
+[0m
+[0m  [0m[97m[41mTypeError[0m[37m[41m:[0m[37m[41m [0m[97m[41mCannot read properties of undefined (reading 'setParserPlugins')[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mplugin-options.js[0m[90m:[0m[93m68[0m[37m [0m[37menhanceMdxOptions[0m
+[0m  [0m  [0m[90m[simple-portfolio]/[gatsby-plugin-mdx]/dist/plugin-options.js:68:33[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mgatsby-node.js[0m[90m:[0m[93m113[0m[37m [0m[37mObject.preprocessSource[0m
+[0m  [0m  [0m[90m[simple-portfolio]/[gatsby-plugin-mdx]/dist/gatsby-node.js:113:22[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mapi-runner-node.js[0m[90m:[0m[93m509[0m[37m [0m[37mrunAPI[0m
+[0m  [0m  [0m[90m[simple-portfolio]/[gatsby]/src/utils/api-runner-node.js:509:16[0m
+[0m  [0m
+[0m
+
+[2K[1A[2K[G
+ ERROR #11321  API.NODE.EXECUTION
+
+"gatsby-plugin-mdx" threw an error while running the preprocessSource lifecycle:
+
+Cannot read properties of undefined (reading 'setParserPlugins')
+
+  111 |     return undefined;
+  112 |   }
+> 113 |   const mdxOptions = await (0,
+_pluginOptions.enhanceMdxOptions)(pluginOptions, {
+      |                      ^
+  114 |     getNode,
+  115 |     getNodesByType,
+  116 |     pathPrefix,
+
+File: node_modules/gatsby-plugin-mdx/dist/gatsby-node.js:113:22
+
+
+[2K[1A[2K[G
+[0m
+[0m  [0m[97m[41mTypeError[0m[37m[41m:[0m[37m[41m [0m[97m[41mCannot read properties of undefined (reading 'setParserPlugins')[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mplugin-options.js[0m[90m:[0m[93m68[0m[37m [0m[37menhanceMdxOptions[0m
+[0m  [0m  [0m[90m[simple-portfolio]/[gatsby-plugin-mdx]/dist/plugin-options.js:68:33[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mgatsby-node.js[0m[90m:[0m[93m113[0m[37m [0m[37mObject.preprocessSource[0m
+[0m  [0m  [0m[90m[simple-portfolio]/[gatsby-plugin-mdx]/dist/gatsby-node.js:113:22[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mapi-runner-node.js[0m[90m:[0m[93m509[0m[37m [0m[37mrunAPI[0m
+[0m  [0m  [0m[90m[simple-portfolio]/[gatsby]/src/utils/api-runner-node.js:509:16[0m
+[0m  [0m
+[0m
+
+[2K[1A[2K[G
+ ERROR #11321  API.NODE.EXECUTION
+
+"gatsby-plugin-mdx" threw an error while running the preprocessSource lifecycle:
+
+Cannot read properties of undefined (reading 'setParserPlugins')
+
+  111 |     return undefined;
+  112 |   }
+> 113 |   const mdxOptions = await (0,
+_pluginOptions.enhanceMdxOptions)(pluginOptions, {
+      |                      ^
+  114 |     getNode,
+  115 |     getNodesByType,
+  116 |     pathPrefix,
+
+File: node_modules/gatsby-plugin-mdx/dist/gatsby-node.js:113:22
+
+
+[2K[1A[2K[G
+[0m
+[0m  [0m[97m[41mTypeError[0m[37m[41m:[0m[37m[41m [0m[97m[41mCannot read properties of undefined (reading 'setParserPlugins')[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mplugin-options.js[0m[90m:[0m[93m68[0m[37m [0m[37menhanceMdxOptions[0m
+[0m  [0m  [0m[90m[simple-portfolio]/[gatsby-plugin-mdx]/dist/plugin-options.js:68:33[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mgatsby-node.js[0m[90m:[0m[93m113[0m[37m [0m[37mObject.preprocessSource[0m
+[0m  [0m  [0m[90m[simple-portfolio]/[gatsby-plugin-mdx]/dist/gatsby-node.js:113:22[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mapi-runner-node.js[0m[90m:[0m[93m509[0m[37m [0m[37mrunAPI[0m
+[0m  [0m  [0m[90m[simple-portfolio]/[gatsby]/src/utils/api-runner-node.js:509:16[0m
+[0m  [0m
+[0m
+
+[2K[1A[2K[G
+ ERROR #11321  API.NODE.EXECUTION
+
+"gatsby-plugin-mdx" threw an error while running the preprocessSource lifecycle:
+
+Cannot read properties of undefined (reading 'setParserPlugins')
+
+  111 |     return undefined;
+  112 |   }
+> 113 |   const mdxOptions = await (0,
+_pluginOptions.enhanceMdxOptions)(pluginOptions, {
+      |                      ^
+  114 |     getNode,
+  115 |     getNodesByType,
+  116 |     pathPrefix,
+
+File: node_modules/gatsby-plugin-mdx/dist/gatsby-node.js:113:22
+
+
+[2K[1A[2K[G
+[0m
+[0m  [0m[97m[41mTypeError[0m[37m[41m:[0m[37m[41m [0m[97m[41mCannot read properties of undefined (reading 'setParserPlugins')[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mplugin-options.js[0m[90m:[0m[93m68[0m[37m [0m[37menhanceMdxOptions[0m
+[0m  [0m  [0m[90m[simple-portfolio]/[gatsby-plugin-mdx]/dist/plugin-options.js:68:33[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mgatsby-node.js[0m[90m:[0m[93m113[0m[37m [0m[37mObject.preprocessSource[0m
+[0m  [0m  [0m[90m[simple-portfolio]/[gatsby-plugin-mdx]/dist/gatsby-node.js:113:22[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mapi-runner-node.js[0m[90m:[0m[93m509[0m[37m [0m[37mrunAPI[0m
+[0m  [0m  [0m[90m[simple-portfolio]/[gatsby]/src/utils/api-runner-node.js:509:16[0m
+[0m  [0m
+[0m
+
+[2K[1A[2K[G
+ ERROR #11321  API.NODE.EXECUTION
+
+"gatsby-plugin-mdx" threw an error while running the preprocessSource lifecycle:
+
+Cannot read properties of undefined (reading 'setParserPlugins')
+
+  111 |     return undefined;
+  112 |   }
+> 113 |   const mdxOptions = await (0,
+_pluginOptions.enhanceMdxOptions)(pluginOptions, {
+      |                      ^
+  114 |     getNode,
+  115 |     getNodesByType,
+  116 |     pathPrefix,
+
+File: node_modules/gatsby-plugin-mdx/dist/gatsby-node.js:113:22
+
+
+[2K[1A[2K[G
+[0m
+[0m  [0m[97m[41mTypeError[0m[37m[41m:[0m[37m[41m [0m[97m[41mCannot read properties of undefined (reading 'setParserPlugins')[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mplugin-options.js[0m[90m:[0m[93m68[0m[37m [0m[37menhanceMdxOptions[0m
+[0m  [0m  [0m[90m[simple-portfolio]/[gatsby-plugin-mdx]/dist/plugin-options.js:68:33[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mgatsby-node.js[0m[90m:[0m[93m113[0m[37m [0m[37mObject.preprocessSource[0m
+[0m  [0m  [0m[90m[simple-portfolio]/[gatsby-plugin-mdx]/dist/gatsby-node.js:113:22[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mapi-runner-node.js[0m[90m:[0m[93m509[0m[37m [0m[37mrunAPI[0m
+[0m  [0m  [0m[90m[simple-portfolio]/[gatsby]/src/utils/api-runner-node.js:509:16[0m
+[0m  [0m
+[0m
+
+[2K[1A[2K[G
+ ERROR #11321  API.NODE.EXECUTION
+
+"gatsby-plugin-mdx" threw an error while running the preprocessSource lifecycle:
+
+Cannot read properties of undefined (reading 'setParserPlugins')
+
+  111 |     return undefined;
+  112 |   }
+> 113 |   const mdxOptions = await (0,
+_pluginOptions.enhanceMdxOptions)(pluginOptions, {
+      |                      ^
+  114 |     getNode,
+  115 |     getNodesByType,
+  116 |     pathPrefix,
+
+File: node_modules/gatsby-plugin-mdx/dist/gatsby-node.js:113:22
+
+
+[2K[1A[2K[G
+[0m
+[0m  [0m[97m[41mTypeError[0m[37m[41m:[0m[37m[41m [0m[97m[41mCannot read properties of undefined (reading 'setParserPlugins')[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mplugin-options.js[0m[90m:[0m[93m68[0m[37m [0m[37menhanceMdxOptions[0m
+[0m  [0m  [0m[90m[simple-portfolio]/[gatsby-plugin-mdx]/dist/plugin-options.js:68:33[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mgatsby-node.js[0m[90m:[0m[93m113[0m[37m [0m[37mObject.preprocessSource[0m
+[0m  [0m  [0m[90m[simple-portfolio]/[gatsby-plugin-mdx]/dist/gatsby-node.js:113:22[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mapi-runner-node.js[0m[90m:[0m[93m509[0m[37m [0m[37mrunAPI[0m
+[0m  [0m  [0m[90m[simple-portfolio]/[gatsby]/src/utils/api-runner-node.js:509:16[0m
+[0m  [0m
+[0m
+
+[2K[1A[2K[G
+ ERROR #11321  API.NODE.EXECUTION
+
+"gatsby-plugin-mdx" threw an error while running the preprocessSource lifecycle:
+
+Cannot read properties of undefined (reading 'setParserPlugins')
+
+  111 |     return undefined;
+  112 |   }
+> 113 |   const mdxOptions = await (0,
+_pluginOptions.enhanceMdxOptions)(pluginOptions, {
+      |                      ^
+  114 |     getNode,
+  115 |     getNodesByType,
+  116 |     pathPrefix,
+
+File: node_modules/gatsby-plugin-mdx/dist/gatsby-node.js:113:22
+
+
+[2K[1A[2K[G
+[0m
+[0m  [0m[97m[41mTypeError[0m[37m[41m:[0m[37m[41m [0m[97m[41mCannot read properties of undefined (reading 'setParserPlugins')[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mplugin-options.js[0m[90m:[0m[93m68[0m[37m [0m[37menhanceMdxOptions[0m
+[0m  [0m  [0m[90m[simple-portfolio]/[gatsby-plugin-mdx]/dist/plugin-options.js:68:33[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mgatsby-node.js[0m[90m:[0m[93m113[0m[37m [0m[37mObject.preprocessSource[0m
+[0m  [0m  [0m[90m[simple-portfolio]/[gatsby-plugin-mdx]/dist/gatsby-node.js:113:22[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mapi-runner-node.js[0m[90m:[0m[93m509[0m[37m [0m[37mrunAPI[0m
+[0m  [0m  [0m[90m[simple-portfolio]/[gatsby]/src/utils/api-runner-node.js:509:16[0m
+[0m  [0m
+[0m
+
+[2K[1A[2K[G
+ ERROR #11321  API.NODE.EXECUTION
+
+"gatsby-plugin-mdx" threw an error while running the preprocessSource lifecycle:
+
+Cannot read properties of undefined (reading 'setParserPlugins')
+
+  111 |     return undefined;
+  112 |   }
+> 113 |   const mdxOptions = await (0,
+_pluginOptions.enhanceMdxOptions)(pluginOptions, {
+      |                      ^
+  114 |     getNode,
+  115 |     getNodesByType,
+  116 |     pathPrefix,
+
+File: node_modules/gatsby-plugin-mdx/dist/gatsby-node.js:113:22
+
+
+[2K[1A[2K[G
+[0m
+[0m  [0m[97m[41mTypeError[0m[37m[41m:[0m[37m[41m [0m[97m[41mCannot read properties of undefined (reading 'setParserPlugins')[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mplugin-options.js[0m[90m:[0m[93m68[0m[37m [0m[37menhanceMdxOptions[0m
+[0m  [0m  [0m[90m[simple-portfolio]/[gatsby-plugin-mdx]/dist/plugin-options.js:68:33[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mgatsby-node.js[0m[90m:[0m[93m113[0m[37m [0m[37mObject.preprocessSource[0m
+[0m  [0m  [0m[90m[simple-portfolio]/[gatsby-plugin-mdx]/dist/gatsby-node.js:113:22[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mapi-runner-node.js[0m[90m:[0m[93m509[0m[37m [0m[37mrunAPI[0m
+[0m  [0m  [0m[90m[simple-portfolio]/[gatsby]/src/utils/api-runner-node.js:509:16[0m
+[0m  [0m
+[0m
+
+[2K[1A[2K[G
+ ERROR #11321  API.NODE.EXECUTION
+
+"gatsby-plugin-mdx" threw an error while running the preprocessSource lifecycle:
+
+Cannot read properties of undefined (reading 'setParserPlugins')
+
+  111 |     return undefined;
+  112 |   }
+> 113 |   const mdxOptions = await (0,
+_pluginOptions.enhanceMdxOptions)(pluginOptions, {
+      |                      ^
+  114 |     getNode,
+  115 |     getNodesByType,
+  116 |     pathPrefix,
+
+File: node_modules/gatsby-plugin-mdx/dist/gatsby-node.js:113:22
+
+
+[2K[1A[2K[G
+[0m
+[0m  [0m[97m[41mTypeError[0m[37m[41m:[0m[37m[41m [0m[97m[41mCannot read properties of undefined (reading 'setParserPlugins')[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mplugin-options.js[0m[90m:[0m[93m68[0m[37m [0m[37menhanceMdxOptions[0m
+[0m  [0m  [0m[90m[simple-portfolio]/[gatsby-plugin-mdx]/dist/plugin-options.js:68:33[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mgatsby-node.js[0m[90m:[0m[93m113[0m[37m [0m[37mObject.preprocessSource[0m
+[0m  [0m  [0m[90m[simple-portfolio]/[gatsby-plugin-mdx]/dist/gatsby-node.js:113:22[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mapi-runner-node.js[0m[90m:[0m[93m509[0m[37m [0m[37mrunAPI[0m
+[0m  [0m  [0m[90m[simple-portfolio]/[gatsby]/src/utils/api-runner-node.js:509:16[0m
+[0m  [0m
+[0m
+
+[2K[1A[2K[G
+ ERROR #11321  API.NODE.EXECUTION
+
+"gatsby-plugin-mdx" threw an error while running the preprocessSource lifecycle:
+
+Cannot read properties of undefined (reading 'setParserPlugins')
+
+  111 |     return undefined;
+  112 |   }
+> 113 |   const mdxOptions = await (0,
+_pluginOptions.enhanceMdxOptions)(pluginOptions, {
+      |                      ^
+  114 |     getNode,
+  115 |     getNodesByType,
+  116 |     pathPrefix,
+
+File: node_modules/gatsby-plugin-mdx/dist/gatsby-node.js:113:22
+
+
+[2K[1A[2K[G
+[0m
+[0m  [0m[97m[41mTypeError[0m[37m[41m:[0m[37m[41m [0m[97m[41mCannot read properties of undefined (reading 'setParserPlugins')[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mplugin-options.js[0m[90m:[0m[93m68[0m[37m [0m[37menhanceMdxOptions[0m
+[0m  [0m  [0m[90m[simple-portfolio]/[gatsby-plugin-mdx]/dist/plugin-options.js:68:33[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mgatsby-node.js[0m[90m:[0m[93m113[0m[37m [0m[37mObject.preprocessSource[0m
+[0m  [0m  [0m[90m[simple-portfolio]/[gatsby-plugin-mdx]/dist/gatsby-node.js:113:22[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mapi-runner-node.js[0m[90m:[0m[93m509[0m[37m [0m[37mrunAPI[0m
+[0m  [0m  [0m[90m[simple-portfolio]/[gatsby]/src/utils/api-runner-node.js:509:16[0m
+[0m  [0m
+[0m
+
+[2K[1A[2K[G
+ ERROR #11321  API.NODE.EXECUTION
+
+"gatsby-plugin-mdx" threw an error while running the preprocessSource lifecycle:
+
+Cannot read properties of undefined (reading 'setParserPlugins')
+
+  111 |     return undefined;
+  112 |   }
+> 113 |   const mdxOptions = await (0,
+_pluginOptions.enhanceMdxOptions)(pluginOptions, {
+      |                      ^
+  114 |     getNode,
+  115 |     getNodesByType,
+  116 |     pathPrefix,
+
+File: node_modules/gatsby-plugin-mdx/dist/gatsby-node.js:113:22
+
+
+[2K[1A[2K[G
+[0m
+[0m  [0m[97m[41mTypeError[0m[37m[41m:[0m[37m[41m [0m[97m[41mCannot read properties of undefined (reading 'setParserPlugins')[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mplugin-options.js[0m[90m:[0m[93m68[0m[37m [0m[37menhanceMdxOptions[0m
+[0m  [0m  [0m[90m[simple-portfolio]/[gatsby-plugin-mdx]/dist/plugin-options.js:68:33[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mgatsby-node.js[0m[90m:[0m[93m113[0m[37m [0m[37mObject.preprocessSource[0m
+[0m  [0m  [0m[90m[simple-portfolio]/[gatsby-plugin-mdx]/dist/gatsby-node.js:113:22[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mapi-runner-node.js[0m[90m:[0m[93m509[0m[37m [0m[37mrunAPI[0m
+[0m  [0m  [0m[90m[simple-portfolio]/[gatsby]/src/utils/api-runner-node.js:509:16[0m
+[0m  [0m
+[0m
+
+[2K[1A[2K[G
+ ERROR #11321  API.NODE.EXECUTION
+
+"gatsby-plugin-mdx" threw an error while running the preprocessSource lifecycle:
+
+Cannot read properties of undefined (reading 'setParserPlugins')
+
+  111 |     return undefined;
+  112 |   }
+> 113 |   const mdxOptions = await (0,
+_pluginOptions.enhanceMdxOptions)(pluginOptions, {
+      |                      ^
+  114 |     getNode,
+  115 |     getNodesByType,
+  116 |     pathPrefix,
+
+File: node_modules/gatsby-plugin-mdx/dist/gatsby-node.js:113:22
+
+
+[2K[1A[2K[G
+[0m
+[0m  [0m[97m[41mTypeError[0m[37m[41m:[0m[37m[41m [0m[97m[41mCannot read properties of undefined (reading 'setParserPlugins')[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mplugin-options.js[0m[90m:[0m[93m68[0m[37m [0m[37menhanceMdxOptions[0m
+[0m  [0m  [0m[90m[simple-portfolio]/[gatsby-plugin-mdx]/dist/plugin-options.js:68:33[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mgatsby-node.js[0m[90m:[0m[93m113[0m[37m [0m[37mObject.preprocessSource[0m
+[0m  [0m  [0m[90m[simple-portfolio]/[gatsby-plugin-mdx]/dist/gatsby-node.js:113:22[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mapi-runner-node.js[0m[90m:[0m[93m509[0m[37m [0m[37mrunAPI[0m
+[0m  [0m  [0m[90m[simple-portfolio]/[gatsby]/src/utils/api-runner-node.js:509:16[0m
+[0m  [0m
+[0m
+
+[2K[1A[2K[G
+ ERROR #11321  API.NODE.EXECUTION
+
+"gatsby-plugin-mdx" threw an error while running the preprocessSource lifecycle:
+
+Cannot read properties of undefined (reading 'setParserPlugins')
+
+  111 |     return undefined;
+  112 |   }
+> 113 |   const mdxOptions = await (0,
+_pluginOptions.enhanceMdxOptions)(pluginOptions, {
+      |                      ^
+  114 |     getNode,
+  115 |     getNodesByType,
+  116 |     pathPrefix,
+
+File: node_modules/gatsby-plugin-mdx/dist/gatsby-node.js:113:22
+
+
+[2K[1A[2K[G
+[0m
+[0m  [0m[97m[41mTypeError[0m[37m[41m:[0m[37m[41m [0m[97m[41mCannot read properties of undefined (reading 'setParserPlugins')[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mplugin-options.js[0m[90m:[0m[93m68[0m[37m [0m[37menhanceMdxOptions[0m
+[0m  [0m  [0m[90m[simple-portfolio]/[gatsby-plugin-mdx]/dist/plugin-options.js:68:33[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mgatsby-node.js[0m[90m:[0m[93m113[0m[37m [0m[37mObject.preprocessSource[0m
+[0m  [0m  [0m[90m[simple-portfolio]/[gatsby-plugin-mdx]/dist/gatsby-node.js:113:22[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mapi-runner-node.js[0m[90m:[0m[93m509[0m[37m [0m[37mrunAPI[0m
+[0m  [0m  [0m[90m[simple-portfolio]/[gatsby]/src/utils/api-runner-node.js:509:16[0m
+[0m  [0m
+[0m
+
+[2K[1A[2K[G
+ ERROR #11321  API.NODE.EXECUTION
+
+"gatsby-plugin-mdx" threw an error while running the preprocessSource lifecycle:
+
+Cannot read properties of undefined (reading 'setParserPlugins')
+
+  111 |     return undefined;
+  112 |   }
+> 113 |   const mdxOptions = await (0,
+_pluginOptions.enhanceMdxOptions)(pluginOptions, {
+      |                      ^
+  114 |     getNode,
+  115 |     getNodesByType,
+  116 |     pathPrefix,
+
+File: node_modules/gatsby-plugin-mdx/dist/gatsby-node.js:113:22
+
+
+[2K[1A[2K[G
+[0m
+[0m  [0m[97m[41mTypeError[0m[37m[41m:[0m[37m[41m [0m[97m[41mCannot read properties of undefined (reading 'setParserPlugins')[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mplugin-options.js[0m[90m:[0m[93m68[0m[37m [0m[37menhanceMdxOptions[0m
+[0m  [0m  [0m[90m[simple-portfolio]/[gatsby-plugin-mdx]/dist/plugin-options.js:68:33[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mgatsby-node.js[0m[90m:[0m[93m113[0m[37m [0m[37mObject.preprocessSource[0m
+[0m  [0m  [0m[90m[simple-portfolio]/[gatsby-plugin-mdx]/dist/gatsby-node.js:113:22[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mapi-runner-node.js[0m[90m:[0m[93m509[0m[37m [0m[37mrunAPI[0m
+[0m  [0m  [0m[90m[simple-portfolio]/[gatsby]/src/utils/api-runner-node.js:509:16[0m
+[0m  [0m
+[0m
+
+[2K[1A[2K[G
+ ERROR #11321  API.NODE.EXECUTION
+
+"gatsby-plugin-mdx" threw an error while running the preprocessSource lifecycle:
+
+Cannot read properties of undefined (reading 'setParserPlugins')
+
+  111 |     return undefined;
+  112 |   }
+> 113 |   const mdxOptions = await (0,
+_pluginOptions.enhanceMdxOptions)(pluginOptions, {
+      |                      ^
+  114 |     getNode,
+  115 |     getNodesByType,
+  116 |     pathPrefix,
+
+File: node_modules/gatsby-plugin-mdx/dist/gatsby-node.js:113:22
+
+
+[2K[1A[2K[G
+[0m
+[0m  [0m[97m[41mTypeError[0m[37m[41m:[0m[37m[41m [0m[97m[41mCannot read properties of undefined (reading 'setParserPlugins')[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mplugin-options.js[0m[90m:[0m[93m68[0m[37m [0m[37menhanceMdxOptions[0m
+[0m  [0m  [0m[90m[simple-portfolio]/[gatsby-plugin-mdx]/dist/plugin-options.js:68:33[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mgatsby-node.js[0m[90m:[0m[93m113[0m[37m [0m[37mObject.preprocessSource[0m
+[0m  [0m  [0m[90m[simple-portfolio]/[gatsby-plugin-mdx]/dist/gatsby-node.js:113:22[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mapi-runner-node.js[0m[90m:[0m[93m509[0m[37m [0m[37mrunAPI[0m
+[0m  [0m  [0m[90m[simple-portfolio]/[gatsby]/src/utils/api-runner-node.js:509:16[0m
+[0m  [0m
+[0m
+
+[2K[1A[2K[G
+ ERROR #11321  API.NODE.EXECUTION
+
+"gatsby-plugin-mdx" threw an error while running the preprocessSource lifecycle:
+
+Cannot read properties of undefined (reading 'setParserPlugins')
+
+  111 |     return undefined;
+  112 |   }
+> 113 |   const mdxOptions = await (0,
+_pluginOptions.enhanceMdxOptions)(pluginOptions, {
+      |                      ^
+  114 |     getNode,
+  115 |     getNodesByType,
+  116 |     pathPrefix,
+
+File: node_modules/gatsby-plugin-mdx/dist/gatsby-node.js:113:22
+
+
+[2K[1A[2K[G
+[0m
+[0m  [0m[97m[41mTypeError[0m[37m[41m:[0m[37m[41m [0m[97m[41mCannot read properties of undefined (reading 'setParserPlugins')[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mplugin-options.js[0m[90m:[0m[93m68[0m[37m [0m[37menhanceMdxOptions[0m
+[0m  [0m  [0m[90m[simple-portfolio]/[gatsby-plugin-mdx]/dist/plugin-options.js:68:33[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mgatsby-node.js[0m[90m:[0m[93m113[0m[37m [0m[37mObject.preprocessSource[0m
+[0m  [0m  [0m[90m[simple-portfolio]/[gatsby-plugin-mdx]/dist/gatsby-node.js:113:22[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mapi-runner-node.js[0m[90m:[0m[93m509[0m[37m [0m[37mrunAPI[0m
+[0m  [0m  [0m[90m[simple-portfolio]/[gatsby]/src/utils/api-runner-node.js:509:16[0m
+[0m  [0m
+[0m
+
+[2K[1A[2K[G
+ ERROR #11321  API.NODE.EXECUTION
+
+"gatsby-plugin-mdx" threw an error while running the preprocessSource lifecycle:
+
+Cannot read properties of undefined (reading 'setParserPlugins')
+
+  111 |     return undefined;
+  112 |   }
+> 113 |   const mdxOptions = await (0,
+_pluginOptions.enhanceMdxOptions)(pluginOptions, {
+      |                      ^
+  114 |     getNode,
+  115 |     getNodesByType,
+  116 |     pathPrefix,
+
+File: node_modules/gatsby-plugin-mdx/dist/gatsby-node.js:113:22
+
+
+[2K[1A[2K[G
+[0m
+[0m  [0m[97m[41mTypeError[0m[37m[41m:[0m[37m[41m [0m[97m[41mCannot read properties of undefined (reading 'setParserPlugins')[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mplugin-options.js[0m[90m:[0m[93m68[0m[37m [0m[37menhanceMdxOptions[0m
+[0m  [0m  [0m[90m[simple-portfolio]/[gatsby-plugin-mdx]/dist/plugin-options.js:68:33[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mgatsby-node.js[0m[90m:[0m[93m113[0m[37m [0m[37mObject.preprocessSource[0m
+[0m  [0m  [0m[90m[simple-portfolio]/[gatsby-plugin-mdx]/dist/gatsby-node.js:113:22[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mapi-runner-node.js[0m[90m:[0m[93m509[0m[37m [0m[37mrunAPI[0m
+[0m  [0m  [0m[90m[simple-portfolio]/[gatsby]/src/utils/api-runner-node.js:509:16[0m
+[0m  [0m
+[0m
+
+[2K[1A[2K[G
+ ERROR #11321  API.NODE.EXECUTION
+
+"gatsby-plugin-mdx" threw an error while running the preprocessSource lifecycle:
+
+Cannot read properties of undefined (reading 'setParserPlugins')
+
+  111 |     return undefined;
+  112 |   }
+> 113 |   const mdxOptions = await (0,
+_pluginOptions.enhanceMdxOptions)(pluginOptions, {
+      |                      ^
+  114 |     getNode,
+  115 |     getNodesByType,
+  116 |     pathPrefix,
+
+File: node_modules/gatsby-plugin-mdx/dist/gatsby-node.js:113:22
+
+
+[2K[1A[2K[G
+[0m
+[0m  [0m[97m[41mTypeError[0m[37m[41m:[0m[37m[41m [0m[97m[41mCannot read properties of undefined (reading 'setParserPlugins')[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mplugin-options.js[0m[90m:[0m[93m68[0m[37m [0m[37menhanceMdxOptions[0m
+[0m  [0m  [0m[90m[simple-portfolio]/[gatsby-plugin-mdx]/dist/plugin-options.js:68:33[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mgatsby-node.js[0m[90m:[0m[93m113[0m[37m [0m[37mObject.preprocessSource[0m
+[0m  [0m  [0m[90m[simple-portfolio]/[gatsby-plugin-mdx]/dist/gatsby-node.js:113:22[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mapi-runner-node.js[0m[90m:[0m[93m509[0m[37m [0m[37mrunAPI[0m
+[0m  [0m  [0m[90m[simple-portfolio]/[gatsby]/src/utils/api-runner-node.js:509:16[0m
+[0m  [0m
+[0m
+
+[2K[1A[2K[G
+ ERROR #11321  API.NODE.EXECUTION
+
+"gatsby-plugin-mdx" threw an error while running the preprocessSource lifecycle:
+
+Cannot read properties of undefined (reading 'setParserPlugins')
+
+  111 |     return undefined;
+  112 |   }
+> 113 |   const mdxOptions = await (0,
+_pluginOptions.enhanceMdxOptions)(pluginOptions, {
+      |                      ^
+  114 |     getNode,
+  115 |     getNodesByType,
+  116 |     pathPrefix,
+
+File: node_modules/gatsby-plugin-mdx/dist/gatsby-node.js:113:22
+
+
+[2K[1A[2K[G
+[0m
+[0m  [0m[97m[41mTypeError[0m[37m[41m:[0m[37m[41m [0m[97m[41mCannot read properties of undefined (reading 'setParserPlugins')[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mplugin-options.js[0m[90m:[0m[93m68[0m[37m [0m[37menhanceMdxOptions[0m
+[0m  [0m  [0m[90m[simple-portfolio]/[gatsby-plugin-mdx]/dist/plugin-options.js:68:33[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mgatsby-node.js[0m[90m:[0m[93m113[0m[37m [0m[37mObject.preprocessSource[0m
+[0m  [0m  [0m[90m[simple-portfolio]/[gatsby-plugin-mdx]/dist/gatsby-node.js:113:22[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mapi-runner-node.js[0m[90m:[0m[93m509[0m[37m [0m[37mrunAPI[0m
+[0m  [0m  [0m[90m[simple-portfolio]/[gatsby]/src/utils/api-runner-node.js:509:16[0m
+[0m  [0m
+[0m
+
+[2K[1A[2K[G
+ ERROR #11321  API.NODE.EXECUTION
+
+"gatsby-plugin-mdx" threw an error while running the preprocessSource lifecycle:
+
+Cannot read properties of undefined (reading 'setParserPlugins')
+
+  111 |     return undefined;
+  112 |   }
+> 113 |   const mdxOptions = await (0,
+_pluginOptions.enhanceMdxOptions)(pluginOptions, {
+      |                      ^
+  114 |     getNode,
+  115 |     getNodesByType,
+  116 |     pathPrefix,
+
+File: node_modules/gatsby-plugin-mdx/dist/gatsby-node.js:113:22
+
+
+[2K[1A[2K[G
+[0m
+[0m  [0m[97m[41mTypeError[0m[37m[41m:[0m[37m[41m [0m[97m[41mCannot read properties of undefined (reading 'setParserPlugins')[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mplugin-options.js[0m[90m:[0m[93m68[0m[37m [0m[37menhanceMdxOptions[0m
+[0m  [0m  [0m[90m[simple-portfolio]/[gatsby-plugin-mdx]/dist/plugin-options.js:68:33[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mgatsby-node.js[0m[90m:[0m[93m113[0m[37m [0m[37mObject.preprocessSource[0m
+[0m  [0m  [0m[90m[simple-portfolio]/[gatsby-plugin-mdx]/dist/gatsby-node.js:113:22[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mapi-runner-node.js[0m[90m:[0m[93m509[0m[37m [0m[37mrunAPI[0m
+[0m  [0m  [0m[90m[simple-portfolio]/[gatsby]/src/utils/api-runner-node.js:509:16[0m
+[0m  [0m
+[0m
+
+[2K[1A[2K[G
+ ERROR #11321  API.NODE.EXECUTION
+
+"gatsby-plugin-mdx" threw an error while running the preprocessSource lifecycle:
+
+Cannot read properties of undefined (reading 'setParserPlugins')
+
+  111 |     return undefined;
+  112 |   }
+> 113 |   const mdxOptions = await (0,
+_pluginOptions.enhanceMdxOptions)(pluginOptions, {
+      |                      ^
+  114 |     getNode,
+  115 |     getNodesByType,
+  116 |     pathPrefix,
+
+File: node_modules/gatsby-plugin-mdx/dist/gatsby-node.js:113:22
+
+
+[2K[1A[2K[G
+[0m
+[0m  [0m[97m[41mTypeError[0m[37m[41m:[0m[37m[41m [0m[97m[41mCannot read properties of undefined (reading 'setParserPlugins')[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mplugin-options.js[0m[90m:[0m[93m68[0m[37m [0m[37menhanceMdxOptions[0m
+[0m  [0m  [0m[90m[simple-portfolio]/[gatsby-plugin-mdx]/dist/plugin-options.js:68:33[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mgatsby-node.js[0m[90m:[0m[93m113[0m[37m [0m[37mObject.preprocessSource[0m
+[0m  [0m  [0m[90m[simple-portfolio]/[gatsby-plugin-mdx]/dist/gatsby-node.js:113:22[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mapi-runner-node.js[0m[90m:[0m[93m509[0m[37m [0m[37mrunAPI[0m
+[0m  [0m  [0m[90m[simple-portfolio]/[gatsby]/src/utils/api-runner-node.js:509:16[0m
+[0m  [0m
+[0m
+
+[2K[1A[2K[G
+ ERROR #11321  API.NODE.EXECUTION
+
+"gatsby-plugin-mdx" threw an error while running the preprocessSource lifecycle:
+
+Cannot read properties of undefined (reading 'setParserPlugins')
+
+  111 |     return undefined;
+  112 |   }
+> 113 |   const mdxOptions = await (0,
+_pluginOptions.enhanceMdxOptions)(pluginOptions, {
+      |                      ^
+  114 |     getNode,
+  115 |     getNodesByType,
+  116 |     pathPrefix,
+
+File: node_modules/gatsby-plugin-mdx/dist/gatsby-node.js:113:22
+
+
+[2K[1A[2K[G
+[0m
+[0m  [0m[97m[41mTypeError[0m[37m[41m:[0m[37m[41m [0m[97m[41mCannot read properties of undefined (reading 'setParserPlugins')[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mplugin-options.js[0m[90m:[0m[93m68[0m[37m [0m[37menhanceMdxOptions[0m
+[0m  [0m  [0m[90m[simple-portfolio]/[gatsby-plugin-mdx]/dist/plugin-options.js:68:33[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mgatsby-node.js[0m[90m:[0m[93m113[0m[37m [0m[37mObject.preprocessSource[0m
+[0m  [0m  [0m[90m[simple-portfolio]/[gatsby-plugin-mdx]/dist/gatsby-node.js:113:22[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mapi-runner-node.js[0m[90m:[0m[93m509[0m[37m [0m[37mrunAPI[0m
+[0m  [0m  [0m[90m[simple-portfolio]/[gatsby]/src/utils/api-runner-node.js:509:16[0m
+[0m  [0m
+[0m
+
+[2K[1A[2K[G
+ ERROR #11321  API.NODE.EXECUTION
+
+"gatsby-plugin-mdx" threw an error while running the preprocessSource lifecycle:
+
+Cannot read properties of undefined (reading 'setParserPlugins')
+
+  111 |     return undefined;
+  112 |   }
+> 113 |   const mdxOptions = await (0,
+_pluginOptions.enhanceMdxOptions)(pluginOptions, {
+      |                      ^
+  114 |     getNode,
+  115 |     getNodesByType,
+  116 |     pathPrefix,
+
+File: node_modules/gatsby-plugin-mdx/dist/gatsby-node.js:113:22
+
+
+[2K[1A[2K[G
+[0m
+[0m  [0m[97m[41mTypeError[0m[37m[41m:[0m[37m[41m [0m[97m[41mCannot read properties of undefined (reading 'setParserPlugins')[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mplugin-options.js[0m[90m:[0m[93m68[0m[37m [0m[37menhanceMdxOptions[0m
+[0m  [0m  [0m[90m[simple-portfolio]/[gatsby-plugin-mdx]/dist/plugin-options.js:68:33[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mgatsby-node.js[0m[90m:[0m[93m113[0m[37m [0m[37mObject.preprocessSource[0m
+[0m  [0m  [0m[90m[simple-portfolio]/[gatsby-plugin-mdx]/dist/gatsby-node.js:113:22[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mapi-runner-node.js[0m[90m:[0m[93m509[0m[37m [0m[37mrunAPI[0m
+[0m  [0m  [0m[90m[simple-portfolio]/[gatsby]/src/utils/api-runner-node.js:509:16[0m
+[0m  [0m
+[0m
+
+[2K[1A[2K[G
+ ERROR #11321  API.NODE.EXECUTION
+
+"gatsby-plugin-mdx" threw an error while running the preprocessSource lifecycle:
+
+Cannot read properties of undefined (reading 'setParserPlugins')
+
+  111 |     return undefined;
+  112 |   }
+> 113 |   const mdxOptions = await (0,
+_pluginOptions.enhanceMdxOptions)(pluginOptions, {
+      |                      ^
+  114 |     getNode,
+  115 |     getNodesByType,
+  116 |     pathPrefix,
+
+File: node_modules/gatsby-plugin-mdx/dist/gatsby-node.js:113:22
+
+
+[2K[1A[2K[G
+[0m
+[0m  [0m[97m[41mTypeError[0m[37m[41m:[0m[37m[41m [0m[97m[41mCannot read properties of undefined (reading 'setParserPlugins')[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mplugin-options.js[0m[90m:[0m[93m68[0m[37m [0m[37menhanceMdxOptions[0m
+[0m  [0m  [0m[90m[simple-portfolio]/[gatsby-plugin-mdx]/dist/plugin-options.js:68:33[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mgatsby-node.js[0m[90m:[0m[93m113[0m[37m [0m[37mObject.preprocessSource[0m
+[0m  [0m  [0m[90m[simple-portfolio]/[gatsby-plugin-mdx]/dist/gatsby-node.js:113:22[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mapi-runner-node.js[0m[90m:[0m[93m509[0m[37m [0m[37mrunAPI[0m
+[0m  [0m  [0m[90m[simple-portfolio]/[gatsby]/src/utils/api-runner-node.js:509:16[0m
+[0m  [0m
+[0m
+
+[2K[1A[2K[G
+ ERROR #11321  API.NODE.EXECUTION
+
+"gatsby-plugin-mdx" threw an error while running the preprocessSource lifecycle:
+
+Cannot read properties of undefined (reading 'setParserPlugins')
+
+  111 |     return undefined;
+  112 |   }
+> 113 |   const mdxOptions = await (0,
+_pluginOptions.enhanceMdxOptions)(pluginOptions, {
+      |                      ^
+  114 |     getNode,
+  115 |     getNodesByType,
+  116 |     pathPrefix,
+
+File: node_modules/gatsby-plugin-mdx/dist/gatsby-node.js:113:22
+
+
+[2K[1A[2K[G
+[0m
+[0m  [0m[97m[41mTypeError[0m[37m[41m:[0m[37m[41m [0m[97m[41mCannot read properties of undefined (reading 'setParserPlugins')[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mplugin-options.js[0m[90m:[0m[93m68[0m[37m [0m[37menhanceMdxOptions[0m
+[0m  [0m  [0m[90m[simple-portfolio]/[gatsby-plugin-mdx]/dist/plugin-options.js:68:33[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mgatsby-node.js[0m[90m:[0m[93m113[0m[37m [0m[37mObject.preprocessSource[0m
+[0m  [0m  [0m[90m[simple-portfolio]/[gatsby-plugin-mdx]/dist/gatsby-node.js:113:22[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mapi-runner-node.js[0m[90m:[0m[93m509[0m[37m [0m[37mrunAPI[0m
+[0m  [0m  [0m[90m[simple-portfolio]/[gatsby]/src/utils/api-runner-node.js:509:16[0m
+[0m  [0m
+[0m
+
+[2K[1A[2K[Gsuccess extract queries from components - 1.084s
+
+[2K[1A[2K[Gsuccess write out requires - 0.003s
+
+[2K[1A[2K[G
+ ERROR #11321  API.NODE.EXECUTION
+
+"gatsby-plugin-mdx" threw an error while running the onCreateWebpackConfig
+lifecycle:
+
+Cannot read properties of undefined (reading 'setParserPlugins')
+
+  29 | }, pluginOptions) => {
+  30 |   const options = (0, _pluginOptions.defaultOptions)(pluginOptions);
+> 31 |   const mdxOptions = await (0,
+_pluginOptions.enhanceMdxOptions)(pluginOptions, {
+     |                      ^
+  32 |     getNode,
+  33 |     getNodesByType,
+  34 |     pathPrefix,
+
+File: node_modules/gatsby-plugin-mdx/dist/gatsby-node.js:31:22
+
+
+[2K[1A[2K[G
+[0m
+[0m  [0m[97m[41mTypeError[0m[37m[41m:[0m[37m[41m [0m[97m[41mCannot read properties of undefined (reading 'setParserPlugins')[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mplugin-options.js[0m[90m:[0m[93m68[0m[37m [0m[37menhanceMdxOptions[0m
+[0m  [0m  [0m[90m[simple-portfolio]/[gatsby-plugin-mdx]/dist/plugin-options.js:68:33[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mgatsby-node.js[0m[90m:[0m[93m31[0m[37m [0m[37mObject.onCreateWebpackConfig[0m
+[0m  [0m  [0m[90m[simple-portfolio]/[gatsby-plugin-mdx]/dist/gatsby-node.js:31:22[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mapi-runner-node.js[0m[90m:[0m[93m509[0m[37m [0m[37mrunAPI[0m
+[0m  [0m  [0m[90m[simple-portfolio]/[gatsby]/src/utils/api-runner-node.js:509:16[0m
+[0m  [0m
+[0m
+
+[2K[1A[2K[G
+ ERROR #11321  API.NODE.EXECUTION
+
+"gatsby-plugin-mdx" threw an error while running the onCreateWebpackConfig
+lifecycle:
+
+Cannot read properties of undefined (reading 'setParserPlugins')
+
+  29 | }, pluginOptions) => {
+  30 |   const options = (0, _pluginOptions.defaultOptions)(pluginOptions);
+> 31 |   const mdxOptions = await (0,
+_pluginOptions.enhanceMdxOptions)(pluginOptions, {
+     |                      ^
+  32 |     getNode,
+  33 |     getNodesByType,
+  34 |     pathPrefix,
+
+File: node_modules/gatsby-plugin-mdx/dist/gatsby-node.js:31:22
+
+
+[2K[1A[2K[G
+[0m
+[0m  [0m[97m[41mTypeError[0m[37m[41m:[0m[37m[41m [0m[97m[41mCannot read properties of undefined (reading 'setParserPlugins')[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mplugin-options.js[0m[90m:[0m[93m68[0m[37m [0m[37menhanceMdxOptions[0m
+[0m  [0m  [0m[90m[simple-portfolio]/[gatsby-plugin-mdx]/dist/plugin-options.js:68:33[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mgatsby-node.js[0m[90m:[0m[93m31[0m[37m [0m[37mObject.onCreateWebpackConfig[0m
+[0m  [0m  [0m[90m[simple-portfolio]/[gatsby-plugin-mdx]/dist/gatsby-node.js:31:22[0m
+[0m  [0m
+[0m  [0m[90m-[0m [0m[93mapi-runner-node.js[0m[90m:[0m[93m509[0m[37m [0m[37mrunAPI[0m
+[0m  [0m  [0m[90m[simple-portfolio]/[gatsby]/src/utils/api-runner-node.js:509:16[0m
+[0m  [0m
+[0m
+
+[2K[1A[2K[G⠀
+
+[2K[1A[2K[GYou can now view contentful-starter-gatsby-blog in the browser.
+
+[2K[1A[2K[G⠀
+
+[2K[1A[2K[G  http://localhost:8000/
+
+[2K[1A[2K[G⠀
+
+[2K[1A[2K[GView GraphiQL, an in-browser IDE, to explore your site's data and schema
+
+[2K[1A[2K[G⠀
+
+[2K[1A[2K[G  http://localhost:8000/___graphql
+
+[2K[1A[2K[G⠀
+
+[2K[1A[2K[GNote that the development build is not optimized.
+
+[2K[1A[2K[GTo create a production build, use gatsby build
+
+[2K[1A[2K[G⠀
+
+[2K[1A[2K[Gsuccess Building development bundle - 2.474s
+
