@@ -145,16 +145,14 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-tagmanager`,
       options: {
-        id: `${process.env.CONTENTFUL_GTM_ID}`, // GTMのコンテナID
-        includeInDevelopment: false,
+        id: process.env.CONTENTFUL_GTM_ID, // GTMのコンテナID
+        includeInDevelopment: true, // 開発環境でもGTMを含める
         defaultDataLayer: { platform: "gatsby" },
-        gtmAuth: `${process.env.CONTENTFUL_GTM_AUTH}`, // GTMのプレビューモードから取得
-        gtmPreview: `${process.env.CONTENTFUL_GTM_PREVIEW}`, // GTMのプレビューモードから取得
+        gtmAuth: process.env.CONTENTFUL_GTM_AUTH, // プレビューモードから取得したgtmAuth
+        gtmPreview: process.env.CONTENTFUL_GTM_PREVIEW, // プレビューモードから取得したgtmPreview
         dataLayerName: "dataLayer",
       },
     },
-
-
     {
       resolve: `gatsby-transformer-remark`,
       options: {
