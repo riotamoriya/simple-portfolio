@@ -38,13 +38,6 @@ class ProjectPostTemplate extends React.Component {
           image={`http:${post.heroImage.resize.src}`}
         />
 
-        <TrackEvent
-          eventName="view_project"
-          eventParams={{
-            page_title: post.title,
-            project_id: post.id,
-          }}
-        />
         <Hero
           image={post.heroImage?.gatsbyImage}
           title={post.title}
