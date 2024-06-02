@@ -1,5 +1,5 @@
 import React, { useState, useRef } from 'react';
-import Layout from '../../components/Layout';
+import Layout from '../components/Layout';
 import Recaptcha from "react-google-recaptcha";
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
