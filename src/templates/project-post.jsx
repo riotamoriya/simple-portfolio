@@ -15,8 +15,6 @@ import Hero from '../components/hero'
 import Tags from '../components/tags'
 import * as styles from './blog-post.module.css'
 
-import TrackEvent from '../components/trackEvent'
-
 class ProjectPostTemplate extends React.Component {
   render() {
     const post = get(this.props, 'data.contentfulProjectPost')
@@ -32,6 +30,7 @@ class ProjectPostTemplate extends React.Component {
     
     return (
       <Layout location={this.props.location}>
+        
         <Seo
           title={post.title}
           description={plainTextDescription}
