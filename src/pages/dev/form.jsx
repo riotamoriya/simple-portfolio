@@ -1,6 +1,5 @@
 import React, { useState } from 'react'
 import Layout from '../../components/Layout'
-import Hero from '../../components/Hero'
 import { TextField, Button, Container, Box } from "@material-ui/core";
 import { navigate } from "gatsby-link";
 import Recaptcha from "react-google-recaptcha"
@@ -50,8 +49,6 @@ const FormPage = () => {
 
   return (
     <Layout>
-   
-
       <Container maxWidth="sm">
         <Box mt={4} mb={4}>
           <form

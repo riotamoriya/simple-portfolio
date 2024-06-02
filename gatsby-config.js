@@ -16,22 +16,6 @@ module.exports = {
   plugins: [
     `gatsby-plugin-netlify`, // 追加
     {
-      resolve: 'gatsby-plugin-mdx',
-      options: {
-        extensions: ['.mdx', '.md'],
-        gatsbyRemarkPlugins: [
-          {
-            resolve: 'gatsby-remark-images',
-            options: {
-              maxWidth: 1200,
-            },
-          },
-          // 'gatsby-remark-prismjs',
-        ],
-      },
-    },
-    
-    {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `pages`,

@@ -1,15 +1,10 @@
-import React, { useState } from 'react'
-import Layout from '../components/Layout'
-import { TextField, Button, Container, Box } from "@material-ui/core";
-import { navigate } from "gatsby-link";
-import Recaptcha from "react-google-recaptcha"
+import React from 'react';
+import Layout from '../components/Layout';
+import { Container, Box } from "@material-ui/core";
 
 
 const ThanksPage = () => {
-  const [state, setState] = useState({});
-  const recaptchaRef = React.createRef();
-  const [recaptchaStatus, setRecaptchaStatus] = useState(false);
-
+ 
   return (
     <Layout>
       <Container maxWidth="sm">
