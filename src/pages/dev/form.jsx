@@ -1,14 +1,15 @@
-import React, { useState } from 'react'
-import Layout from '../../components/Layout'
-import { TextField, Button, Container, Box } from "@material-ui/core";
-import { navigate } from "gatsby-link";
-import Recaptcha from "react-google-recaptcha"
+import React, { useState, useRef } from 'react';
+import Layout from '../../components/Layout';
+import Recaptcha from "react-google-recaptcha";
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+import './form.css';
 
-const RECAPTCHA_KEY = process.env.GATSBY_APP_SITE_RECAPTCHA_KEY
+const RECAPTCHA_KEY = process.env.GATSBY_APP_SITE_RECAPTCHA_KEY;
 if (typeof RECAPTCHA_KEY === "undefined") {
   throw new Error(`
   reCAPTCHAキーが登録されていません
-  `)
+  `);
 }
 
 const encode = (data) => {
@@ -19,7 +20,7 @@ const encode = (data) => {
 
 const FormPage = () => {
   const [state, setState] = useState({});
-  const recaptchaRef = React.createRef();
+  const recaptchaRef = useRef();
   const [recaptchaStatus, setRecaptchaStatus] = useState(false);
 
   const handleChange = (e) => {
@@ -39,7 +40,15 @@ const FormPage = () => {
         ...state,
       }),
     })
-      .then(() => navigate(form.getAttribute("action")))
+      .then(() => {
+        toast.success("送信が完了しました！", {
+          position: "top-center",
+          autoClose: 5000,
+        });
+        form.reset();
+        setRecaptchaStatus(false);
+        recaptchaRef.current.reset();
+      })
       .catch((error) => alert(error));
   };
 
@@ -49,40 +58,46 @@ const FormPage = () => {
 
   return (
     <Layout>
-      <Container maxWidth="sm">
-        <Box mt={4} mb={4}>
-          <form
-            name="contact"
-            method="post"
-            action="/thanks"
-            data-netlify="true"
-            data-netlify-honeypot="bot-field"
-            data-netlify-recaptcha="true"
-            onSubmit={handleSubmit}
-            style={{ display: 'flex', flexDirection: 'column', gap: '16px' }}
-          >
-            <input type="hidden" name="form-name" value="contact" />
-            <label hidden>
-              <input name="bot-field" onChange={handleChange} />
-            </label>
-            <TextField label="お名前" name="name" onChange={handleChange} required />
-            <TextField label="メールアドレス" type="email" name="email" onChange={handleChange} required />
-            <TextField label="本文" name="message" multiline rows={4} onChange={handleChange} required />
-            <div className="center">
-              <Recaptcha
-                ref={recaptchaRef}
-                sitekey={RECAPTCHA_KEY}
-                onChange={recaptchaSuccess}
-              />
-            </div>
-            <Button type="submit" variant="contained" color="primary" disabled={!recaptchaStatus}>
-              送信する
-            </Button>
-          </form>
-        </Box>
-      </Container>
+      <div className="form-container">
+      <h1>フォーム</h1>
+      <p>ぜひ以下のフォームからご連絡ください！！</p>
+        <form
+          name="contact"
+          method="post"
+          action="/thanks"
+          data-netlify="true"
+          data-netlify-honeypot="bot-field"
+          data-netlify-recaptcha="true"
+          onSubmit={handleSubmit}
+        >
+          <input type="hidden" name="form-name" value="contact" />
+          <div className="form-group">
+            <label htmlFor="name">お名前</label>
+            <input type="text" name="name" id="name" onChange={handleChange} required />
+          </div>
+          <div className="form-group">
+            <label htmlFor="email">メールアドレス</label>
+            <input type="email" name="email" id="email" onChange={handleChange} required />
+          </div>
+          <div className="form-group">
+            <label htmlFor="message">本文</label>
+            <textarea name="message" id="message" rows="4" onChange={handleChange} required></textarea>
+          </div>
+          <div className="recaptcha-container">
+            <Recaptcha
+              ref={recaptchaRef}
+              sitekey={RECAPTCHA_KEY}
+              onChange={recaptchaSuccess}
+            />
+          </div>
+          <div className="form-group">
+            <button type="submit" disabled={!recaptchaStatus}>送信する</button>
+          </div>
+        </form>
+      </div>
+      <ToastContainer />
     </Layout>
-  )
+  );
 }
 
-export default FormPage
+export default FormPage;

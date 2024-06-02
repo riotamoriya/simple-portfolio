@@ -9,7 +9,6 @@
   },
   "dependencies": {
     "@contentful/rich-text-plain-text-renderer": "^15.12.1",
-    "@material-ui/core": "^4.12.4",
     "gatsby": "^5.13.5",
     "gatsby-plugin-canonical-urls": "^5.13.1",
     "gatsby-plugin-google-gtag": "^5.13.1",
