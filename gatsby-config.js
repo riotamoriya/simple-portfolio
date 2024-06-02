@@ -14,6 +14,7 @@ module.exports = {
     siteUrl: `${siteUrl}`,
   },
   plugins: [
+    `gatsby-plugin-netlify`, // 追加
     {
       resolve: 'gatsby-plugin-mdx',
       options: {
@@ -25,7 +26,7 @@ module.exports = {
               maxWidth: 1200,
             },
           },
-          'gatsby-remark-prismjs',
+          // 'gatsby-remark-prismjs',
         ],
       },
     },
