@@ -24,6 +24,11 @@ const Navigation = () => (
           Project
         </Link>
       </li>
+      <li className={styles.navigationItem}>
+        <Link to="/form/" activeClassName="active">
+          Form
+        </Link>
+      </li>
     </ul>
   </nav>
 )
