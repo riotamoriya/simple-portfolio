@@ -1,7 +1,7 @@
 import * as React from "react"
 import * as styles from './render-notion.scss';
 
-const RenderNotion = ({ title, MarkdownRemark, background_color }) => {
+const RenderNotion = ({ title, MarkdownRemark, background_color, children }) => {
   const post = MarkdownRemark;
   const post_body = post.html;
   
@@ -20,6 +20,8 @@ const RenderNotion = ({ title, MarkdownRemark, background_color }) => {
         className={styles.content}
         dangerouslySetInnerHTML={{ __html: post_body }}
       />
+
+      {children}
     </div>
   )
 }
