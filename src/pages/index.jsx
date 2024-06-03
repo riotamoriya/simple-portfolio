@@ -1,3 +1,4 @@
+// index.jsx
 import React from 'react'
 import { graphql } from 'gatsby'
 import { useStaticQuery } from 'gatsby'
@@ -5,7 +6,9 @@ import get from 'lodash/get'
 
 import Layout from '../components/layout'
 import Hero from '../components/hero'
-// import ArticlePreview from '../components/article-preview'
+
+
+import ADDIN from './addin'
 
 const RootIndex = () => {
   const data = useStaticQuery(graphql`
@@ -46,7 +49,6 @@ const RootIndex = () => {
   `)
 
   const author = get(data, 'allContentfulPerson.nodes[0]')
-
   return (
     <Layout>
       <Hero
@@ -54,7 +56,9 @@ const RootIndex = () => {
         title={author.name}
         content={author.shortBio}
       />
-      {/* <ArticlePreview posts={posts} /> */}
+    {/* <Container> */}
+      <ADDIN />
+    {/* </Container> */}
     </Layout>
   )
 }
