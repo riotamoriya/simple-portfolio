@@ -14,6 +14,17 @@ module.exports = {
     siteUrl: `${siteUrl}`,
   },
   plugins: [
+    `gatsby-plugin-sass`,
+    {
+      resolve: `gatsby-source-notion-api`,
+      options: {
+        token: `${process.env.NOTION_TOKEN}`,
+        databaseId: `${process.env.NOTION_DATABASE_ID}`,
+        propsToFrontmatter: true,
+        lowerTitleLevel: true,
+      },
+    },
+    
     `gatsby-plugin-netlify`, // 追加
     {
       resolve: `gatsby-source-filesystem`,

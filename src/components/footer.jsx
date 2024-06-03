@@ -8,7 +8,10 @@ const Footer = () => (
     <div className={styles.container}>
       Built with <a href="https://contentful.com/">Contentful</a> and{' '}
       <a href="https://gatsbyjs.com">Gatsby</a> &middot;{' '}
-      <a href="https://github.com/riotamoriya/simple-portfolio/LICENSE">Source</a>
+      <a href="https://github.com/riotamoriya/simple-portfolio/LICENSE">Source</a>{' '}
+
+      / <a href="https://moriyaryota.com/privacy-policy/">Privacy-Policy</a>
+
     </div>
   </Container>
 )

@@ -5,6 +5,9 @@ import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import './form.css';
 
+import Seo from '../components/seo'
+
+
 const RECAPTCHA_KEY = process.env.GATSBY_APP_SITE_RECAPTCHA_KEY;
 if (typeof RECAPTCHA_KEY === "undefined") {
   throw new Error(`
@@ -58,6 +61,12 @@ const FormPage = () => {
 
   return (
     <Layout>
+      <Seo
+        title="Form"
+        description="Form"
+        // image={`http:${post.heroImage.resize.src}`}
+      />
+
       <div className="form-container">
       <h1>フォーム</h1>
       <p>ぜひ以下のフォームからご連絡ください！！</p>

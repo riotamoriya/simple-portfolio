@@ -1,5 +1,6 @@
 import Layout from '../components/layout'
 import React, { useState, useEffect, useCallback } from 'react';
+import Seo from '../components/seo'
 
 // 石取りゲームのコンポーネント
 const Game = () => {
@@ -46,6 +47,12 @@ const Game = () => {
 
   return (
     <div style={{ textAlign: 'center', width: '50vw', backgroundColor: '#ffe'}}>
+      <Seo
+        title="404 Not Found"
+        description="404 Not Found"
+        // image={`http:${post.heroImage.resize.src}`}
+      />
+
       <h3><u>息を抜いて石取りゲーム！！</u></h3>
       <p>残りの石: {stones}</p>
       <p>{message}</p>
