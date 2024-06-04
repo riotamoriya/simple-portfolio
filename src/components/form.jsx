@@ -59,7 +59,7 @@ const FormComponent = ({title="以下のフォームからご連絡ください�
   return (
     <div>
       <div className="form-container">
-      <p>{title}</p>
+      <u><h3>{title}</h3></u>
         <form
           name="contact"
           method="post"

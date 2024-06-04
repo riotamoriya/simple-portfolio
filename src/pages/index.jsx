@@ -7,7 +7,7 @@ import Hero from '../components/hero'
 import RenderNotion from '../components/render-notion'
 import Container from '../components/container'
 import { FaLinkedin } from 'react-icons/fa'
-import { FaFile, FaFileAlt, FaFileArchive, FaFilePdf, FaFileExcel } from 'react-icons/fa';
+// import { FaFile, FaFileAlt, FaFileArchive, FaFilePdf, FaFileExcel } from 'react-icons/fa';
 
 
 import FormComponent from '../components/form';
@@ -40,7 +40,7 @@ const IndexPage = ({ data }) => {
         <RenderNotion MarkdownRemark={notion_aboutme_page} background_color="" />
       </Container>
       <Container>
-        <RenderNotion title={notion_contact_page.frontmatter.title}  MarkdownRemark={notion_contact_page} background_color="#ddf50608" />
+        <RenderNotion title={notion_contact_page.frontmatter.title}  MarkdownRemark={notion_contact_page} background_color="" />
       </Container>
 
       <Container>
