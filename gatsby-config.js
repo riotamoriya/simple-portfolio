@@ -2,9 +2,9 @@ require("dotenv").config({
   path: `.env.${process.env.NODE_ENV}`,
 });
 
-const siteUrl = "https://moriyaryota.com/";
-const title = "Moriya Ryota's Portfolio"
-
+const siteUrl = process.env.SITE_URL || "https://moriyaryota.com/";
+const title = "Moriya Ryota's Portfolio";
+const isProduction = process.env.NETLIFY_PRODUCTION === "true";
 
 module.exports = {
   siteMetadata: {
@@ -13,6 +13,7 @@ module.exports = {
     author: "Moriya Ryota",
     siteUrl: `${siteUrl}`,
   },
+  pathPrefix: "/simple-portfolio",
   plugins: [
     `gatsby-plugin-sass`,
     {
@@ -24,8 +25,7 @@ module.exports = {
         lowerTitleLevel: true,
       },
     },
-    
-    `gatsby-plugin-netlify`, // 追加
+    `gatsby-plugin-netlify`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
@@ -44,53 +44,17 @@ module.exports = {
         display: `minimal-ui`,
         icon: `src/images/logo.png`,
         icons: [
-          {
-            src: `icons/icon-72x72.png`,
-            sizes: `72x72`,
-            type: `image/png`
-          },
-          {
-            src: `icons/icon-96x96.png`,
-            sizes: `96x96`,
-            type: `image/png`
-          },
-          {
-            src: `icons/icon-128x128.png`,
-            sizes: `128x128`,
-            type: `image/png`
-          },
-          {
-            src: `icons/icon-144x144.png`,
-            sizes: `144x144`,
-            type: `image/png`
-          },
-          {
-            src: `icons/icon-152x152.png`,
-            sizes: `152x152`,
-            type: `image/png`
-          },
-          {
-            src: `icons/icon-192x192.png`,
-            sizes: `192x192`,
-            type: `image/png`
-          },
-          {
-            src: `icons/icon-384x384.png`,
-            sizes: `384x384`,
-            type: `image/png`
-          },
-          {
-            src: `icons/icon-512x512.png`,
-            sizes: `512x512`,
-            type: `image/png`
-          },
-        ]
+          { src: `icons/icon-72x72.png`, sizes: `72x72`, type: `image/png` },
+          { src: `icons/icon-96x96.png`, sizes: `96x96`, type: `image/png` },
+          { src: `icons/icon-128x128.png`, sizes: `128x128`, type: `image/png` },
+          { src: `icons/icon-144x144.png`, sizes: `144x144`, type: `image/png` },
+          { src: `icons/icon-152x152.png`, sizes: `152x152`, type: `image/png` },
+          { src: `icons/icon-192x192.png`, sizes: `192x192`, type: `image/png` },
+          { src: `icons/icon-384x384.png`, sizes: `384x384`, type: `image/png` },
+          { src: `icons/icon-512x512.png`, sizes: `512x512`, type: `image/png` },
+        ],
       },
     },
-
-
-
-
     "gatsby-transformer-sharp",
     "gatsby-plugin-react-helmet",
     "gatsby-plugin-sharp",
@@ -100,34 +64,42 @@ module.exports = {
       options: {
         spaceId: process.env.CONTENTFUL_SPACE_ID,
         accessToken: process.env.CONTENTFUL_ACCESS_TOKEN,
-        host: process.env.CONTENTFUL_HOST
+        host: process.env.CONTENTFUL_HOST,
       },
     },
-
-    "gatsby-plugin-netlify",
-    {
+    isProduction && {
       resolve: `gatsby-plugin-sitemap`,
       options: {
-        output: `/`, //サイトマップをルートディレクトリ直下に出力するようなオプション
+        output: `/`,
       },
     },
-    `gatsby-plugin-robots-txt`,
-
+    isProduction && {
+      resolve: `gatsby-plugin-robots-txt`,
+      options: {
+        host: siteUrl,
+        sitemap: `${siteUrl}/sitemap.xml`,
+        policy: [{ userAgent: "*", disallow: [] }],
+      },
+    },
+    !isProduction && {
+      resolve: `gatsby-plugin-robots-txt`,
+      options: {
+        host: siteUrl,
+        sitemap: `${siteUrl}/sitemap.xml`,
+        policy: [{ userAgent: "*", disallow: ["/"] }],
+      },
+    },
     {
-      resolve: `gatsby-plugin-canonical-urls`,　// 追加
+      resolve: `gatsby-plugin-canonical-urls`,
       options: {
         siteUrl: `${siteUrl}`,
         stripQueryString: true,
       },
     },
-
-
     {
       resolve: `gatsby-plugin-google-gtag`,
       options: {
-        trackingIds: [
-          `${process.env.CONTENTFUL_G4_MEASUREMENT_ID}`, // GA4の測定IDをここに記入
-        ],
+        trackingIds: [`${process.env.CONTENTFUL_G4_MEASUREMENT_ID}`],
         gtagConfig: {
           anonymize_ip: true,
           cookie_expires: 0,
@@ -141,23 +113,20 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-tagmanager`,
       options: {
-        id: process.env.CONTENTFUL_GTM_ID, // GTMのコンテナID
-        includeInDevelopment: true, // 開発環境でもGTMを含める
+        id: process.env.CONTENTFUL_GTM_ID,
+        includeInDevelopment: true,
         defaultDataLayer: { platform: "gatsby" },
-        gtmAuth: process.env.CONTENTFUL_GTM_AUTH, // プレビューモードから取得したgtmAuth
-        gtmPreview: process.env.CONTENTFUL_GTM_PREVIEW, // プレビューモードから取得したgtmPreview
+        gtmAuth: process.env.CONTENTFUL_GTM_AUTH,
+        gtmPreview: process.env.CONTENTFUL_GTM_PREVIEW,
         dataLayerName: "dataLayer",
       },
     },
     {
       resolve: `gatsby-transformer-remark`,
       options: {
-        // Footnotes mode (default: true)
         footnotes: true,
-        // GitHub Flavored Markdown mode (default: true)
         gfm: true,
       },
     },
-    
-  ],
+  ].filter(Boolean), // 不要なプラグインをフィルタリング
 };
